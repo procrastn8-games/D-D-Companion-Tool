@@ -32,8 +32,10 @@
             this.FlowPnl = new System.Windows.Forms.FlowLayoutPanel();
             this.VolumeBtn = new System.Windows.Forms.PictureBox();
             this.SettingsBtn = new System.Windows.Forms.PictureBox();
+            this.CharacterCreationBTN = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.VolumeBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SettingsBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterCreationBTN)).BeginInit();
             this.SuspendLayout();
             // 
             // FlowPnl
@@ -72,12 +74,25 @@
             this.SettingsBtn.TabStop = false;
             this.SettingsBtn.Click += new System.EventHandler(this.setting_Click);
             // 
+            // CharacterCreationBTN
+            // 
+            this.CharacterCreationBTN.BackgroundImage = global::dnd.Properties.Resources.CharacterSheetButton;
+            this.CharacterCreationBTN.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CharacterCreationBTN.ErrorImage = null;
+            this.CharacterCreationBTN.Location = new System.Drawing.Point(2, 76);
+            this.CharacterCreationBTN.Name = "CharacterCreationBTN";
+            this.CharacterCreationBTN.Size = new System.Drawing.Size(25, 26);
+            this.CharacterCreationBTN.TabIndex = 4;
+            this.CharacterCreationBTN.TabStop = false;
+            this.CharacterCreationBTN.Click += new System.EventHandler(this.CharacterCreationBTN_Click);
+            // 
             // DiceRollForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.ClientSize = new System.Drawing.Size(252, 465);
+            this.Controls.Add(this.CharacterCreationBTN);
             this.Controls.Add(this.SettingsBtn);
             this.Controls.Add(this.VolumeBtn);
             this.Controls.Add(this.FlowPnl);
@@ -87,6 +102,7 @@
             this.Text = "Jay\'s Dice Roller";
             ((System.ComponentModel.ISupportInitialize)(this.VolumeBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SettingsBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterCreationBTN)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -96,6 +112,7 @@
         private System.Windows.Forms.FlowLayoutPanel FlowPnl;
         private System.Windows.Forms.PictureBox VolumeBtn;
         private System.Windows.Forms.PictureBox SettingsBtn;
+        private System.Windows.Forms.PictureBox CharacterCreationBTN;
     }
 }
 

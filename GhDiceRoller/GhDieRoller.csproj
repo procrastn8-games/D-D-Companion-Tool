@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\Boner1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Boner1.Designer.cs">
+      <DependentUpon>Boner1.cs</DependentUpon>
+    </Compile>
     <Compile Include="DieRoller.cs">
       <SubType>UserControl</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -71,6 +77,9 @@
     <Compile Include="settingsFrm.Designer.cs">
       <DependentUpon>settingsFrm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Controls\Boner1.resx">
+      <DependentUpon>Boner1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DieRoller.resx">
       <DependentUpon>DieRoller.cs</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -176,6 +185,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sound\special\Failure.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CharacterSheetButton.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

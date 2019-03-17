@@ -17,7 +17,7 @@ namespace dnd
         public DiceRollForm()
         {
             InitializeComponent();
-            List<int> usefullNums = new List<int> { 4, 6, 10, 12, 20, 100 };
+            List<int> usefullNums = new List<int> { 2, 4, 6, 10, 12, 20, 100 };
             foreach(int num in usefullNums)
             {
                 FlowPnl.Controls.Add(new dnd.DieRoller(num));
@@ -59,6 +59,13 @@ namespace dnd
                 sfrm.TopMost = true;
                 sfrm.TopMost = false;
             }
+
+        }
+
+        private void CharacterCreationBTN_Click(object sender, EventArgs e)
+        {
+            dnd.Controls.Boner1 cform = new dnd.Controls.Boner1();
+            cform.Show();
 
         }
     }
