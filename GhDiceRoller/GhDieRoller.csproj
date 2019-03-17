@@ -55,6 +55,18 @@
     <Compile Include="Controls\Boner1.Designer.cs">
       <DependentUpon>Boner1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\CharacterInterface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CharacterInterface.Designer.cs">
+      <DependentUpon>CharacterInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\characterSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\characterSheet.Designer.cs">
+      <DependentUpon>characterSheet.cs</DependentUpon>
+    </Compile>
     <Compile Include="DieRoller.cs">
       <SubType>UserControl</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -62,6 +74,30 @@
     <Compile Include="DieRoller.Designer.cs">
       <DependentUpon>DieRoller.cs</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="dnd\Controls\AbilityControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Controls\ArmorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Controls\PerceptionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Controls\ProficienyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Controls\SkillsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Controls\SpellsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Controls\StatsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Controls\WeaponsControl.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -79,6 +115,9 @@
     </Compile>
     <EmbeddedResource Include="Controls\Boner1.resx">
       <DependentUpon>Boner1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CharacterInterface.resx">
+      <DependentUpon>CharacterInterface.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DieRoller.resx">
       <DependentUpon>DieRoller.cs</DependentUpon>
@@ -189,5 +228,12 @@
   <ItemGroup>
     <None Include="Resources\CharacterSheetButton.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Interface.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InterfaceBG.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

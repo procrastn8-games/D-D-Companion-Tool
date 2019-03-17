@@ -19,7 +19,11 @@ namespace dnd.Controls
 
         private void Boner1_Load(object sender, EventArgs e)
         {
-
+            foreach(TabPage tab in CharactersTabControl.TabPages)
+            {
+                tab.Controls.Add(new dnd.Controls.CharacterInterface());
+            }
         }
+
     }
 }
