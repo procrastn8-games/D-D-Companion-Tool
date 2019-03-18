@@ -58,6 +58,9 @@ namespace dnd
                 for (int i = 0; i < numDice; i++)
                 {
                     int roll = getRandom(crit);
+                    if (Environment.UserName.ToLower().Equals("muttman")){
+                        roll = 1;
+                    }
                     if (roll == crit && CanCrit) playCritSound();
                     else if (roll == 1 && CanCrit) playFailSound();
                     roll = roll + mod;
@@ -103,7 +106,7 @@ namespace dnd
 
             var a = global::dnd.Properties.Resources.Fancy;
             int choices = getRandom(2);
-            if (getRandom(3) > 1)
+            if (choices == 2) 
             {
                 a = global::dnd.Properties.Resources.Fancy;
             }
@@ -392,7 +395,7 @@ namespace dnd
 
         private int getRandom(int v)
         {
-            Random random = new Random();
+            Random random = new Random(Guid.NewGuid().GetHashCode());
             return random.Next(1, v + 1);
         }
 

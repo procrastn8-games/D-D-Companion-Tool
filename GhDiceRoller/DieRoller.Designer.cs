@@ -44,7 +44,7 @@
             // 
             this.NumDown.BackColor = System.Drawing.Color.White;
             this.NumDown.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.NumDown.Location = new System.Drawing.Point(249, 7);
+            this.NumDown.Location = new System.Drawing.Point(256, 7);
             this.NumDown.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NumDown.Name = "NumDown";
             this.NumDown.Size = new System.Drawing.Size(22, 20);
@@ -56,7 +56,7 @@
             // 
             this.NumUp.BackColor = System.Drawing.Color.White;
             this.NumUp.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.NumUp.Location = new System.Drawing.Point(221, 7);
+            this.NumUp.Location = new System.Drawing.Point(228, 7);
             this.NumUp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NumUp.Name = "NumUp";
             this.NumUp.Size = new System.Drawing.Size(22, 20);
@@ -66,7 +66,7 @@
             // 
             // DieNumTxt
             // 
-            this.DieNumTxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.DieNumTxt.BackColor = System.Drawing.Color.Transparent;
             this.DieNumTxt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.DieNumTxt.Location = new System.Drawing.Point(204, 10);
             this.DieNumTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -78,7 +78,7 @@
             // DieCountTxt
             // 
             this.DieCountTxt.AutoSize = true;
-            this.DieCountTxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.DieCountTxt.BackColor = System.Drawing.Color.Transparent;
             this.DieCountTxt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.DieCountTxt.Location = new System.Drawing.Point(139, 10);
             this.DieCountTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -91,7 +91,7 @@
             // 
             this.ModDown.BackColor = System.Drawing.Color.White;
             this.ModDown.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ModDown.Location = new System.Drawing.Point(249, 66);
+            this.ModDown.Location = new System.Drawing.Point(256, 66);
             this.ModDown.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ModDown.Name = "ModDown";
             this.ModDown.Size = new System.Drawing.Size(22, 20);
@@ -103,7 +103,7 @@
             // 
             this.ModUp.BackColor = System.Drawing.Color.White;
             this.ModUp.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ModUp.Location = new System.Drawing.Point(221, 66);
+            this.ModUp.Location = new System.Drawing.Point(228, 66);
             this.ModUp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ModUp.Name = "ModUp";
             this.ModUp.Size = new System.Drawing.Size(22, 20);
@@ -113,7 +113,7 @@
             // 
             // ModNumTxt
             // 
-            this.ModNumTxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.ModNumTxt.BackColor = System.Drawing.Color.Transparent;
             this.ModNumTxt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ModNumTxt.Location = new System.Drawing.Point(204, 63);
             this.ModNumTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -125,7 +125,7 @@
             // ModTxt
             // 
             this.ModTxt.AutoSize = true;
-            this.ModTxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.ModTxt.BackColor = System.Drawing.Color.Transparent;
             this.ModTxt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ModTxt.Location = new System.Drawing.Point(139, 63);
             this.ModTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -160,7 +160,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.BackgroundImage = global::dnd.Properties.Resources.InterfaceBG;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Controls.Add(this.NumDown);
             this.Controls.Add(this.NumUp);
             this.Controls.Add(this.DieNumTxt);
@@ -173,7 +174,7 @@
             this.Controls.Add(this.RollBtn);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "DieRoller";
-            this.Size = new System.Drawing.Size(293, 95);
+            this.Size = new System.Drawing.Size(291, 93);
             this.ResumeLayout(false);
             this.PerformLayout();
 
