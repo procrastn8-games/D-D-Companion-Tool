@@ -178,54 +178,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Sound\metal\1_Metal.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\metal\2 Metal.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\metal\3_Metal.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\metal\Many_Metal.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\Mixed\Mixed_2.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\Mixed\Mixed_3.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\Mixed\Mixed_4.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\plastic\1_Plastic.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\plastic\2_Plastic.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\plastic\2_Plastic_2.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\plastic\3_Plastic.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\plastic\Many_Plastic.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\special\100_Percent.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\special\Botched.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\special\Crit.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sound\special\Failure.wav" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\CharacterSheetButton.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -234,6 +186,170 @@
   <ItemGroup>
     <None Include="Resources\InterfaceBG.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\1_Metal_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\1_Metal_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\1_Metal_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\1_Metal_4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\2_Metal_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\2_Metal_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\2_Metal_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\2_Metal_4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\3_Metal_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\3_Metal_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\3_Metal_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\3_Metal_4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\Many_Metal_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\Many_Metal_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\Many_Metal_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\metal\Many_Metal_4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Mixed\Mixed_2_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Mixed\Mixed_2_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Mixed\Mixed_2_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Mixed\Mixed_2_4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Mixed\Mixed_3_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Mixed\Mixed_3_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Mixed\Mixed_3_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Mixed\Mixed_3_4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Mixed\Mixed_4_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Mixed\Mixed_4_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Mixed\Mixed_4_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Mixed\Mixed_4_4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\1_Plastic_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\1_Plastic_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\1_Plastic_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\1_Plastic_4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\2_Plastic_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\2_Plastic_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\2_Plastic_4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\3_Plastic_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\3_Plastic_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\3_Plastic_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\3_Plastic_4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\Many_Plastic_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\Many_Plastic_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\Many_Plastic_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\plastic\Many_Plastic_4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Shaking\Shaking_2_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Shaking\Shaking_2_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\Shaking\Shaking_2_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\special\Awful.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\special\Butter.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\special\DOCTOR STRANGE Movie Clip - Dormammu Ive Come To Bargain Scene 4K ULTRA HD 2016_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\special\Fancy.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\special\Fucked Up.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\special\Illogical.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\special\Lost_Another_One.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound\special\You%27re Fucked_mixdown.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_Plastic_2.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
