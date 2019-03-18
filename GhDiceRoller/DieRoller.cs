@@ -408,5 +408,10 @@ namespace dnd
         {
             ModNumTxt.Text = "" + (int.Parse(ModNumTxt.Text) - 1);
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

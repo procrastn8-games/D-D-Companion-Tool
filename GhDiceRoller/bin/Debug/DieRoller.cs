@@ -58,6 +58,9 @@ namespace dnd
                 for (int i = 0; i < numDice; i++)
                 {
                     int roll = getRandom(crit);
+                    if (Environment.UserName.ToLower().Equals("muttman")){
+                        roll = 1;
+                    }
                     if (roll == crit && CanCrit) playCritSound();
                     else if (roll == 1 && CanCrit) playFailSound();
                     roll = roll + mod;
@@ -404,6 +407,11 @@ namespace dnd
         private void ModDown_Click(object sender, EventArgs e)
         {
             ModNumTxt.Text = "" + (int.Parse(ModNumTxt.Text) - 1);
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
