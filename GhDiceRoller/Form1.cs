@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using dnd.Controls;
 
 namespace dnd
 {
@@ -64,9 +65,20 @@ namespace dnd
 
         private void CharacterCreationBTN_Click(object sender, EventArgs e)
         {
-            dnd.Controls.Boner1 cform = new dnd.Controls.Boner1();
-            cform.Show();
-
+            
+            Boner1 sfrm = (Boner1)Application.OpenForms["Character"];
+            if (sfrm == null)
+            {
+                Boner1 s = new Boner1();
+                s.Name = "Character";
+                s.StartPosition = FormStartPosition.CenterParent;
+                s.Show();
+            }
+            else
+            {
+                sfrm.TopMost = true;
+                sfrm.TopMost = false;
+            }
         }
 
         private void DiceRollForm_Load(object sender, EventArgs e)
