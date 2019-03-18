@@ -13,7 +13,7 @@ namespace dnd
     public partial class DiceRollForm : Form
     {
         public bool Volume = true;
-        public string rollers = "plastic";
+        public string rollers = "Plastic";
         public DiceRollForm()
         {
             InitializeComponent();

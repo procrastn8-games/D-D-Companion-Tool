@@ -58,7 +58,7 @@
             this.VolumeBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.VolumeBtn.ErrorImage = null;
             this.VolumeBtn.Location = new System.Drawing.Point(13, 61);
-            this.VolumeBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.VolumeBtn.Margin = new System.Windows.Forms.Padding(4);
             this.VolumeBtn.Name = "VolumeBtn";
             this.VolumeBtn.Size = new System.Drawing.Size(40, 40);
             this.VolumeBtn.TabIndex = 1;
@@ -70,7 +70,7 @@
             this.SettingsBtn.BackgroundImage = global::dnd.Properties.Resources.Settings;
             this.SettingsBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.SettingsBtn.Location = new System.Drawing.Point(13, 13);
-            this.SettingsBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SettingsBtn.Margin = new System.Windows.Forms.Padding(4);
             this.SettingsBtn.Name = "SettingsBtn";
             this.SettingsBtn.Size = new System.Drawing.Size(40, 40);
             this.SettingsBtn.TabIndex = 2;
@@ -83,7 +83,7 @@
             this.CharacterCreationBTN.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CharacterCreationBTN.ErrorImage = null;
             this.CharacterCreationBTN.Location = new System.Drawing.Point(13, 109);
-            this.CharacterCreationBTN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CharacterCreationBTN.Margin = new System.Windows.Forms.Padding(4);
             this.CharacterCreationBTN.Name = "CharacterCreationBTN";
             this.CharacterCreationBTN.Size = new System.Drawing.Size(40, 40);
             this.CharacterCreationBTN.TabIndex = 4;
@@ -95,6 +95,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.BackgroundImage = global::dnd.Properties.Resources.Good_Border;
             this.ClientSize = new System.Drawing.Size(359, 706);
             this.Controls.Add(this.CharacterCreationBTN);
             this.Controls.Add(this.SettingsBtn);
@@ -102,7 +103,7 @@
             this.Controls.Add(this.FlowPnl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(314, 137);
             this.Name = "DiceRollForm";

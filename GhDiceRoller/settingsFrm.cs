@@ -31,5 +31,22 @@ namespace dnd
         {
             DieRoller.getForm().rollers = "Mixed";
         }
+
+        private void settingsFrm_Load(object sender, EventArgs e)
+        {
+            string current = (DieRoller.getForm().rollers);
+            if (current.Equals("Metal"))
+            {
+                MetalChk.Select();
+            }
+            else if (current.Equals("Plastic"))
+            {
+                PlasticChk.Select();
+            }
+            else
+            {
+                MixedCheck.Select();
+            }
+        }
     }
 }

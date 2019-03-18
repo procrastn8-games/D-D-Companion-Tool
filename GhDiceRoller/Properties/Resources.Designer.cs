@@ -286,6 +286,16 @@ namespace dnd.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Border {
+            get {
+                object obj = ResourceManager.GetObject("Border", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream Butter {
@@ -329,6 +339,16 @@ namespace dnd.Properties {
         internal static System.IO.UnmanagedMemoryStream Fucked_Up {
             get {
                 return ResourceManager.GetStream("Fucked_Up", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Good_Border {
+            get {
+                object obj = ResourceManager.GetObject("Good_Border", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

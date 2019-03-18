@@ -351,5 +351,11 @@
   <ItemGroup>
     <None Include="Resources\2_Plastic_2.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Border1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Good_Border.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
