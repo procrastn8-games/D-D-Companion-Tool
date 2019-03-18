@@ -46,14 +46,15 @@ namespace dnd
         }
 
         private void setting_Click(object sender, EventArgs e)
-        {           
+        {
             settingsFrm sfrm = (settingsFrm)Application.OpenForms["settings"];
-            if ( sfrm== null)
+            if (sfrm == null)
             {
-            settingsFrm s = new settingsFrm();
-            s.Name = "settings";
-            s.StartPosition = FormStartPosition.CenterParent;
-            s.Show();
+                settingsFrm s = new settingsFrm();
+                s.Name = "settings";
+                s.Show();
+                s.Location = this.Location;
+
             }
             else
             {
@@ -71,8 +72,8 @@ namespace dnd
             {
                 Boner1 s = new Boner1();
                 s.Name = "Character";
-                s.StartPosition = FormStartPosition.CenterParent;
                 s.Show();
+                s.Location = this.Location;
             }
             else
             {
