@@ -68,5 +68,10 @@ namespace dnd
             cform.Show();
 
         }
+
+        private void DiceRollForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
