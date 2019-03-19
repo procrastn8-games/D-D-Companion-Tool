@@ -7,13 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using dnd.Controls;
 
 namespace dnd
 {
     public partial class DiceRollForm : Form
     {
         public bool Volume = true;
-        public string rollers = "plastic";
+        public string rollers = "Plastic";
         public DiceRollForm()
         {
             InitializeComponent();
@@ -45,14 +46,15 @@ namespace dnd
         }
 
         private void setting_Click(object sender, EventArgs e)
-        {           
+        {
             settingsFrm sfrm = (settingsFrm)Application.OpenForms["settings"];
-            if ( sfrm== null)
+            if (sfrm == null)
             {
-            settingsFrm s = new settingsFrm();
-            s.Name = "settings";
-            s.StartPosition = FormStartPosition.CenterParent;
-            s.Show();
+                settingsFrm s = new settingsFrm();
+                s.Name = "settings";
+                s.Show();
+                s.Location = this.Location;
+
             }
             else
             {
@@ -64,8 +66,24 @@ namespace dnd
 
         private void CharacterCreationBTN_Click(object sender, EventArgs e)
         {
-            dnd.Controls.Boner1 cform = new dnd.Controls.Boner1();
-            cform.Show();
+            
+            Boner1 sfrm = (Boner1)Application.OpenForms["Character"];
+            if (sfrm == null)
+            {
+                Boner1 s = new Boner1();
+                s.Name = "Character";
+                s.Show();
+                s.Location = this.Location;
+            }
+            else
+            {
+                sfrm.TopMost = true;
+                sfrm.TopMost = false;
+            }
+        }
+
+        private void DiceRollForm_Load(object sender, EventArgs e)
+        {
 
         }
     }
