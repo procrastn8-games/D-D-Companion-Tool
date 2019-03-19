@@ -55,16 +55,16 @@
     <Compile Include="dnd\Controls\Boner1.Designer.cs">
       <DependentUpon>Boner1.cs</DependentUpon>
     </Compile>
-    <Compile Include="dnd\CharacterInterface.cs">
+    <Compile Include="dnd\Controls\CharacterInterface.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\CharacterInterface.Designer.cs">
+    <Compile Include="dnd\Controls\CharacterInterface.Designer.cs">
       <DependentUpon>CharacterInterface.cs</DependentUpon>
     </Compile>
-    <Compile Include="dnd\characterSheet.cs">
+    <Compile Include="dnd\Controls\characterSheet.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\characterSheet.Designer.cs">
+    <Compile Include="dnd\Controls\characterSheet.Designer.cs">
       <DependentUpon>characterSheet.cs</DependentUpon>
     </Compile>
     <Compile Include="DieRoller.cs">
@@ -116,7 +116,7 @@
     <EmbeddedResource Include="dnd\Controls\Boner1.resx">
       <DependentUpon>Boner1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\CharacterInterface.resx">
+    <EmbeddedResource Include="dnd\Controls\CharacterInterface.resx">
       <DependentUpon>CharacterInterface.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DieRoller.resx">
