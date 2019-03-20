@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace dnd.Controls
 {
@@ -19,8 +20,8 @@ namespace dnd.Controls
 
         private void switchTo(UserControl c)
         {
-            this.flowLayoutPanel1.Controls.Clear();
-            this.flowLayoutPanel1.Controls.Add(c);
+            this.ControlsPanel.Controls.Clear();
+            this.ControlsPanel.Controls.Add(c);
         }
 
         private void CharacterSheetBtn_Click(object sender, EventArgs e)
@@ -66,6 +67,30 @@ namespace dnd.Controls
         private void PerceptionBtn_Click(object sender, EventArgs e)
         {
             switchTo(new dnd.Controls.PerceptionControl());
+        }
+
+        private void CharacterInterface_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BrowseBtn_Click(object sender, EventArgs e)
+        {
+            var FD = new System.Windows.Forms.OpenFileDialog();
+            if (FD.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+               string fileToOpen = FD.FileName;
+
+                ChracterTxtBx.Text = Path.GetFileNameWithoutExtension(fileToOpen);
+                //Parent.Text = ChracterTxtBx.Text;
+                //System.IO.FileInfo File = new System.IO.FileInfo(FD.FileName);
+                // System.IO.StreamReader reader = new System.IO.StreamReader(fileToOpen);             
+            }
+        }
+
+        private void Save_Click(object sender, EventArgs e)
+        {
+            Parent.Text = ChracterTxtBx.Text;
         }
     }
 }

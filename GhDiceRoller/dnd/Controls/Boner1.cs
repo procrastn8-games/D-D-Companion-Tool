@@ -28,5 +28,12 @@ namespace dnd.Controls
             }
         }
 
+        private void PlusBtn_Click(object sender, EventArgs e)
+        {
+            var tp = new TabPage();
+            tp.Text = "character";
+            tp.Controls.Add(new CharacterInterface());
+            this.CharactersTabControl.Controls.Add(tp);
+        }
     }
 }
