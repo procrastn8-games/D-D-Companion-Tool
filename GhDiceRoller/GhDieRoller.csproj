@@ -99,6 +99,8 @@
     <Compile Include="dnd\Controls\WeaponsControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="dnd\Hero.cs" />
+    <Compile Include="dnd\Skill.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
