@@ -8,16 +8,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using dnd;
 
 namespace dnd.Controls
 {
     public partial class CharacterInterface : UserControl
     {
+        public dnd.Hero hero;
         public CharacterInterface()
         {
             InitializeComponent();
+            this.hero = new dnd.Hero();
         }
 
+        public CharacterInterface(dnd.Hero hero)
+        {
+            InitializeComponent();
+            this.hero = hero;
+        }
         private void switchTo(UserControl c)
         {
             this.ControlsPanel.Controls.Clear();
@@ -26,47 +34,47 @@ namespace dnd.Controls
 
         private void CharacterSheetBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new dnd.Controls.characterSheet());
+            switchTo(new characterSheet(hero));
         }
 
         private void WeaponsBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new dnd.Controls.WeaponsControl());
+            switchTo(new WeaponsControl(hero));
         }
 
         private void SpellsBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new dnd.Controls.SpellsControl());
+            switchTo(new SpellsControl(hero));
         }
 
         private void AbilitiesBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new dnd.Controls.AbilityControl());
+            switchTo(new AbilityControl(hero));
         }
 
         private void SkillsBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new dnd.Controls.SkillsControl());
+            switchTo(new SkillsControl(hero));
         }
 
         private void statsBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new dnd.Controls.StatsControl());
+            switchTo(new StatsControl(hero));
         }
 
         private void ArmorBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new dnd.Controls.ArmorControl());
+            switchTo(new ArmorControl(hero));
         }
 
         private void ProficencyBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new dnd.Controls.ProficienyControl());
+            switchTo(new ProficienyControl(hero));
         }
 
         private void PerceptionBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new dnd.Controls.PerceptionControl());
+            switchTo(new PerceptionControl(hero));
         }
 
         private void CharacterInterface_Load(object sender, EventArgs e)
@@ -91,6 +99,11 @@ namespace dnd.Controls
         private void Save_Click(object sender, EventArgs e)
         {
             Parent.Text = ChracterTxtBx.Text;
+        }
+
+        private void ControlsPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace dnd.dnd
 {
 
-    class Hero
+    public class Hero
     {
         string name = "";
         string strength;

@@ -12,9 +12,11 @@ namespace dnd.Controls
 {
     public partial class characterSheet : UserControl
     {
-        public characterSheet()
+        private dnd.Hero hero;
+        public characterSheet(dnd.Hero hero)
         {
             InitializeComponent();
+            this.hero = hero;
         }
     }
 }

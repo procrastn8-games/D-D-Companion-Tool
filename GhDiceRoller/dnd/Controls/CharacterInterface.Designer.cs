@@ -74,111 +74,138 @@
             // 
             this.PerceptionBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.PerceptionBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PerceptionBtn.BackgroundImage")));
+            this.PerceptionBtn.BackColor = System.Drawing.Color.Transparent;
+            this.PerceptionBtn.BackgroundImage = global::dnd.Properties.Resources.Volume;
+            this.PerceptionBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PerceptionBtn.FlatAppearance.BorderSize = 0;
             this.PerceptionBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PerceptionBtn.Location = new System.Drawing.Point(55, 364);
             this.PerceptionBtn.Name = "PerceptionBtn";
             this.PerceptionBtn.Size = new System.Drawing.Size(29, 28);
             this.PerceptionBtn.TabIndex = 37;
-            this.PerceptionBtn.Text = "button2";
-            this.PerceptionBtn.UseVisualStyleBackColor = true;
+            this.PerceptionBtn.UseVisualStyleBackColor = false;
+            this.PerceptionBtn.Click += new System.EventHandler(this.PerceptionBtn_Click);
             // 
             // ProficencyBtn
             // 
             this.ProficencyBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.ProficencyBtn.BackColor = System.Drawing.Color.Transparent;
             this.ProficencyBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ProficencyBtn.BackgroundImage")));
+            this.ProficencyBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ProficencyBtn.FlatAppearance.BorderSize = 0;
             this.ProficencyBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ProficencyBtn.Location = new System.Drawing.Point(12, 364);
             this.ProficencyBtn.Name = "ProficencyBtn";
             this.ProficencyBtn.Size = new System.Drawing.Size(29, 28);
             this.ProficencyBtn.TabIndex = 36;
-            this.ProficencyBtn.Text = "button2";
-            this.ProficencyBtn.UseVisualStyleBackColor = true;
+            this.ProficencyBtn.UseVisualStyleBackColor = false;
+            this.ProficencyBtn.Click += new System.EventHandler(this.PerceptionBtn_Click);
             // 
             // ArmorBtn
             // 
             this.ArmorBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.ArmorBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ArmorBtn.BackgroundImage")));
+            this.ArmorBtn.BackColor = System.Drawing.Color.Transparent;
+            this.ArmorBtn.BackgroundImage = global::dnd.Properties.Resources.Thieving1;
+            this.ArmorBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ArmorBtn.FlatAppearance.BorderSize = 0;
             this.ArmorBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ArmorBtn.Location = new System.Drawing.Point(257, 8);
             this.ArmorBtn.Name = "ArmorBtn";
             this.ArmorBtn.Size = new System.Drawing.Size(29, 28);
             this.ArmorBtn.TabIndex = 35;
-            this.ArmorBtn.Text = "button7";
-            this.ArmorBtn.UseVisualStyleBackColor = true;
+            this.ArmorBtn.UseVisualStyleBackColor = false;
+            this.ArmorBtn.Click += new System.EventHandler(this.ProficencyBtn_Click);
             // 
             // statsBtn
             // 
             this.statsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.statsBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("statsBtn.BackgroundImage")));
+            this.statsBtn.BackColor = System.Drawing.Color.Transparent;
+            this.statsBtn.BackgroundImage = global::dnd.Properties.Resources.Worn_equipment;
+            this.statsBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.statsBtn.FlatAppearance.BorderSize = 0;
             this.statsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.statsBtn.Location = new System.Drawing.Point(216, 6);
             this.statsBtn.Name = "statsBtn";
             this.statsBtn.Size = new System.Drawing.Size(29, 28);
             this.statsBtn.TabIndex = 34;
-            this.statsBtn.Text = "button6";
-            this.statsBtn.UseVisualStyleBackColor = true;
+            this.statsBtn.UseVisualStyleBackColor = false;
+            this.statsBtn.Click += new System.EventHandler(this.ArmorBtn_Click);
             // 
             // SkillsBtn
             // 
             this.SkillsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.SkillsBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SkillsBtn.BackgroundImage")));
+            this.SkillsBtn.BackColor = System.Drawing.Color.Transparent;
+            this.SkillsBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SkillsBtn.FlatAppearance.BorderSize = 0;
             this.SkillsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SkillsBtn.Image = global::dnd.Properties.Resources.Stats_icon;
             this.SkillsBtn.Location = new System.Drawing.Point(176, 6);
             this.SkillsBtn.Name = "SkillsBtn";
             this.SkillsBtn.Size = new System.Drawing.Size(29, 28);
             this.SkillsBtn.TabIndex = 33;
-            this.SkillsBtn.Text = "button5";
-            this.SkillsBtn.UseVisualStyleBackColor = true;
+            this.SkillsBtn.UseVisualStyleBackColor = false;
+            this.SkillsBtn.Click += new System.EventHandler(this.statsBtn_Click);
             // 
             // AbilitiesBtn
             // 
             this.AbilitiesBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.AbilitiesBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AbilitiesBtn.BackgroundImage")));
+            this.AbilitiesBtn.BackColor = System.Drawing.Color.Transparent;
+            this.AbilitiesBtn.BackgroundImage = global::dnd.Properties.Resources.Quests_icon;
+            this.AbilitiesBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.AbilitiesBtn.FlatAppearance.BorderSize = 0;
             this.AbilitiesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AbilitiesBtn.Location = new System.Drawing.Point(136, 7);
             this.AbilitiesBtn.Name = "AbilitiesBtn";
             this.AbilitiesBtn.Size = new System.Drawing.Size(29, 28);
             this.AbilitiesBtn.TabIndex = 32;
-            this.AbilitiesBtn.Text = "button4";
-            this.AbilitiesBtn.UseVisualStyleBackColor = true;
+            this.AbilitiesBtn.UseVisualStyleBackColor = false;
+            this.AbilitiesBtn.Click += new System.EventHandler(this.AbilitiesBtn_Click);
             // 
             // SpellsBtn
             // 
             this.SpellsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.SpellsBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SpellsBtn.BackgroundImage")));
+            this.SpellsBtn.BackColor = System.Drawing.Color.Transparent;
+            this.SpellsBtn.BackgroundImage = global::dnd.Properties.Resources.Lunar_spellbook;
+            this.SpellsBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SpellsBtn.FlatAppearance.BorderSize = 0;
             this.SpellsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SpellsBtn.Location = new System.Drawing.Point(95, 6);
             this.SpellsBtn.Name = "SpellsBtn";
             this.SpellsBtn.Size = new System.Drawing.Size(29, 28);
             this.SpellsBtn.TabIndex = 31;
-            this.SpellsBtn.Text = "button3";
-            this.SpellsBtn.UseVisualStyleBackColor = true;
+            this.SpellsBtn.UseVisualStyleBackColor = false;
+            this.SpellsBtn.Click += new System.EventHandler(this.SpellsBtn_Click);
             // 
             // WeaponsBtn
             // 
             this.WeaponsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.WeaponsBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WeaponsBtn.BackgroundImage")));
+            this.WeaponsBtn.BackColor = System.Drawing.Color.Transparent;
+            this.WeaponsBtn.BackgroundImage = global::dnd.Properties.Resources.Combat_icon;
+            this.WeaponsBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.WeaponsBtn.FlatAppearance.BorderSize = 0;
             this.WeaponsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.WeaponsBtn.Location = new System.Drawing.Point(56, 7);
             this.WeaponsBtn.Name = "WeaponsBtn";
             this.WeaponsBtn.Size = new System.Drawing.Size(29, 28);
             this.WeaponsBtn.TabIndex = 30;
-            this.WeaponsBtn.Text = "button2";
-            this.WeaponsBtn.UseVisualStyleBackColor = true;
+            this.WeaponsBtn.UseVisualStyleBackColor = false;
+            this.WeaponsBtn.Click += new System.EventHandler(this.WeaponsBtn_Click);
             // 
             // CharacterSheetBtn
             // 
             this.CharacterSheetBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.CharacterSheetBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CharacterSheetBtn.BackgroundImage")));
+            this.CharacterSheetBtn.BackColor = System.Drawing.Color.Transparent;
+            this.CharacterSheetBtn.BackgroundImage = global::dnd.Properties.Resources.Notes_button;
+            this.CharacterSheetBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CharacterSheetBtn.FlatAppearance.BorderSize = 0;
             this.CharacterSheetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CharacterSheetBtn.Location = new System.Drawing.Point(13, 10);
             this.CharacterSheetBtn.Name = "CharacterSheetBtn";
             this.CharacterSheetBtn.Size = new System.Drawing.Size(29, 28);
             this.CharacterSheetBtn.TabIndex = 29;
-            this.CharacterSheetBtn.Text = "button1";
-            this.CharacterSheetBtn.UseVisualStyleBackColor = true;
+            this.CharacterSheetBtn.UseVisualStyleBackColor = false;
+            this.CharacterSheetBtn.Click += new System.EventHandler(this.CharacterSheetBtn_Click);
             // 
             // ControlsPanel
             // 
@@ -191,6 +218,7 @@
             this.ControlsPanel.Name = "ControlsPanel";
             this.ControlsPanel.Size = new System.Drawing.Size(231, 309);
             this.ControlsPanel.TabIndex = 28;
+            this.ControlsPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.ControlsPanel_Paint);
             // 
             // ChracterTxtBx
             // 

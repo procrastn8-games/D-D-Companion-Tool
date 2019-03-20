@@ -103,3 +103,12 @@ C:\Users\Lukas\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj
 C:\Users\Lukas\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\GhDieRoller.csproj.CoreCompileInputs.cache
 C:\Users\Lukas\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\GhDiceRoller.exe
 C:\Users\Lukas\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\GhDiceRoller.pdb
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.AbilityControl.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.ArmorControl.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.characterSheet.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.PerceptionControl.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.ProficienyControl.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.SkillsControl.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.SpellsControl.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.StatsControl.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.WeaponsControl.resources

@@ -21,7 +21,7 @@ namespace dnd.Controls
         {
             foreach(TabPage tab in CharactersTabControl.TabPages)
             {
-                CharacterInterface CI = new dnd.Controls.CharacterInterface();
+                CharacterInterface CI = new Controls.CharacterInterface();
                 CI.Anchor = AnchorStyles.Bottom | AnchorStyles.Right | AnchorStyles.Left | AnchorStyles.Top;
                 
                 tab.Controls.Add(CI);

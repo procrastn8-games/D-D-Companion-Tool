@@ -1,6 +1,6 @@
 ﻿namespace dnd.dnd
 {
-    internal class Skill
+    public class Skill
     {
         string skillName;
         int modifier;

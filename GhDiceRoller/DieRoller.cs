@@ -25,7 +25,7 @@ namespace dnd
             DieNumTxt.Text = "" + (int.Parse(DieNumTxt.Text) + 1);
         }
 
-        internal static dnd.DiceRollForm getForm()
+        internal static DiceRollForm getForm()
         {
             DiceRollForm dr = (DiceRollForm)Application.OpenForms["DiceRollForm"];
             return dr;

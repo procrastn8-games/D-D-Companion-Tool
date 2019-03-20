@@ -99,8 +99,8 @@
     <Compile Include="dnd\Controls\WeaponsControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Hero.cs" />
-    <Compile Include="dnd\Skill.cs" />
+    <Compile Include="dnd\Classes\Hero.cs" />
+    <Compile Include="dnd\Classes\Skill.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +115,12 @@
     <Compile Include="settingsFrm.Designer.cs">
       <DependentUpon>settingsFrm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="dnd\Controls\AbilityControl.resx">
+      <DependentUpon>AbilityControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\ArmorControl.resx">
+      <DependentUpon>ArmorControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dnd\Controls\Boner1.resx">
       <DependentUpon>Boner1.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +130,27 @@
     <EmbeddedResource Include="DieRoller.resx">
       <DependentUpon>DieRoller.cs</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\characterSheet.resx">
+      <DependentUpon>characterSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\PerceptionControl.resx">
+      <DependentUpon>PerceptionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\ProficienyControl.resx">
+      <DependentUpon>ProficienyControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\SkillsControl.resx">
+      <DependentUpon>SkillsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\SpellsControl.resx">
+      <DependentUpon>SpellsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\StatsControl.resx">
+      <DependentUpon>StatsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\WeaponsControl.resx">
+      <DependentUpon>WeaponsControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -358,6 +385,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Good_Border.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notes_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Combat_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lunar_spellbook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quests_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stats_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Worn_equipment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thieving.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thieving1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

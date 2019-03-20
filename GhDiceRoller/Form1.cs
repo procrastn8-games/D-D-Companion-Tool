@@ -21,7 +21,7 @@ namespace dnd
             List<int> usefullNums = new List<int> { 2, 4, 6, 10, 12, 20, 100 };
             foreach(int num in usefullNums)
             {
-                FlowPnl.Controls.Add(new dnd.DieRoller(num));
+                FlowPnl.Controls.Add(new DieRoller(num));
             }
 
         }
