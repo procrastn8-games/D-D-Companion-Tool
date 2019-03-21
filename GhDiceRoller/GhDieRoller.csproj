@@ -49,10 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dnd\Controls\Boner1.cs">
+    <Compile Include="dnd\Cards\weaponCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Cards\weaponCard.Designer.cs">
+      <DependentUpon>weaponCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dnd\Classes\Spell.cs" />
+    <Compile Include="dnd\Classes\Weapon.cs" />
+    <Compile Include="dnd\Forms\Boner1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="dnd\Controls\Boner1.Designer.cs">
+    <Compile Include="dnd\Forms\Boner1.Designer.cs">
       <DependentUpon>Boner1.cs</DependentUpon>
     </Compile>
     <Compile Include="dnd\Controls\CharacterInterface.cs">
@@ -101,6 +109,12 @@
     </Compile>
     <Compile Include="dnd\Classes\Hero.cs" />
     <Compile Include="dnd\Classes\Skill.cs" />
+    <Compile Include="dnd\Forms\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dnd\Forms\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,13 +129,16 @@
     <Compile Include="settingsFrm.Designer.cs">
       <DependentUpon>settingsFrm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="dnd\Cards\weaponCard.resx">
+      <DependentUpon>weaponCard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dnd\Controls\AbilityControl.resx">
       <DependentUpon>AbilityControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dnd\Controls\ArmorControl.resx">
       <DependentUpon>ArmorControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Controls\Boner1.resx">
+    <EmbeddedResource Include="dnd\Forms\Boner1.resx">
       <DependentUpon>Boner1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dnd\Controls\CharacterInterface.resx">
@@ -151,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="dnd\Controls\WeaponsControl.resx">
       <DependentUpon>WeaponsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Forms\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -409,6 +429,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Thieving1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-icosahedron-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sword-24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

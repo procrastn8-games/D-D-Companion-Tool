@@ -9,30 +9,30 @@ namespace dnd.dnd
 
     public class Hero
     {
-        string name = "";
-        string strength;
-        string dexterity;
-        string constitution;
-        string wisdom;
-        string intelligence;
-        string charisma;   
+        public string name = "";
+        public string strength;
+        public string dexterity;
+        public string constitution;
+        public string wisdom;
+        public string intelligence;
+        public string charisma;
 
-        List<string> weapons;
-        List<string> armor;
-        List<string> equipment;
-        List<string> spells;
-        List<string> proficiencies;
-        List<string> features;
-        List<Skill> SkillList;
+        public List<string> weapons;
+        public List<string> armor;
+        public List<string> equipment;
+        public List<string> spells;
+        public List<string> proficiencies;
+        public List<string> features;
+        public List<Skill> SkillList;
 
-        int level;
-        string HeroClass;
-        int Maxhp;
-        int remainingHp;
+        public int level;
+        public string HeroClass;
+        public int Maxhp;
+        public int remainingHp;
 
-        int initiative;
-        int speed;
-        int armorClass;
+        public int initiative;
+        public int speed;
+        public int armorClass;
         
 
 

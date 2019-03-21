@@ -86,5 +86,12 @@ namespace dnd
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dnd.Forms.Form2 f2 = new dnd.Forms.Form2(this);
+            f2.Show();
+            this.Hide();
+        }
     }
 }
