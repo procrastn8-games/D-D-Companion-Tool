@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DiceRollForm));
             this.FlowPnl = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.CharacterCreationBTN = new System.Windows.Forms.PictureBox();
             this.SettingsBtn = new System.Windows.Forms.PictureBox();
             this.VolumeBtn = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterCreationBTN)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SettingsBtn)).BeginInit();
@@ -68,6 +68,19 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(46, 582);
             this.panel1.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::dnd.Properties.Resources.icons8_right_arrow_50;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(4, 523);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(37, 39);
+            this.button1.TabIndex = 8;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // CharacterCreationBTN
             // 
@@ -106,16 +119,6 @@
             this.VolumeBtn.TabIndex = 5;
             this.VolumeBtn.TabStop = false;
             this.VolumeBtn.Click += new System.EventHandler(this.VolumeOnOff);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(3, 537);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(37, 39);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // DiceRollForm
             // 

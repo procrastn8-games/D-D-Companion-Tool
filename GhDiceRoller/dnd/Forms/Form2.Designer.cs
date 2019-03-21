@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.VerticalBtn = new System.Windows.Forms.Button();
             this.CharacterCreationBTN = new System.Windows.Forms.PictureBox();
             this.SettingsBtn = new System.Windows.Forms.PictureBox();
             this.VolumeBtn = new System.Windows.Forms.PictureBox();
             this.DiceRollForm = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterCreationBTN)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SettingsBtn)).BeginInit();
@@ -45,7 +46,7 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.panel1.BackgroundImage = global::dnd.Properties.Resources.Border;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.VerticalBtn);
             this.panel1.Controls.Add(this.CharacterCreationBTN);
             this.panel1.Controls.Add(this.SettingsBtn);
             this.panel1.Controls.Add(this.VolumeBtn);
@@ -54,6 +55,21 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(46, 245);
             this.panel1.TabIndex = 3;
+            // 
+            // VerticalBtn
+            // 
+            this.VerticalBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.VerticalBtn.BackColor = System.Drawing.Color.Transparent;
+            this.VerticalBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.VerticalBtn.FlatAppearance.BorderSize = 0;
+            this.VerticalBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.VerticalBtn.Image = global::dnd.Properties.Resources.icons8_down_arrow_50;
+            this.VerticalBtn.Location = new System.Drawing.Point(6, 201);
+            this.VerticalBtn.Name = "VerticalBtn";
+            this.VerticalBtn.Size = new System.Drawing.Size(34, 37);
+            this.VerticalBtn.TabIndex = 9;
+            this.VerticalBtn.UseVisualStyleBackColor = false;
+            this.VerticalBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // CharacterCreationBTN
             // 
@@ -98,22 +114,11 @@
             this.DiceRollForm.AutoScroll = true;
             this.DiceRollForm.BackColor = System.Drawing.Color.Black;
             this.DiceRollForm.BackgroundImage = global::dnd.Properties.Resources.InterfaceBG;
-            this.DiceRollForm.Location = new System.Drawing.Point(49, 2);
+            this.DiceRollForm.Location = new System.Drawing.Point(46, -2);
             this.DiceRollForm.Margin = new System.Windows.Forms.Padding(1);
             this.DiceRollForm.Name = "DiceRollForm";
-            this.DiceRollForm.Size = new System.Drawing.Size(745, 158);
+            this.DiceRollForm.Size = new System.Drawing.Size(748, 162);
             this.DiceRollForm.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button1.Location = new System.Drawing.Point(6, 199);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(37, 39);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
@@ -122,8 +127,9 @@
             this.ClientSize = new System.Drawing.Size(733, 159);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.DiceRollForm);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "D&D Companion";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.CharacterCreationBTN)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SettingsBtn)).EndInit();
@@ -139,6 +145,6 @@
         private System.Windows.Forms.PictureBox SettingsBtn;
         private System.Windows.Forms.PictureBox VolumeBtn;
         private System.Windows.Forms.FlowLayoutPanel DiceRollForm;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button VerticalBtn;
     }
 }
