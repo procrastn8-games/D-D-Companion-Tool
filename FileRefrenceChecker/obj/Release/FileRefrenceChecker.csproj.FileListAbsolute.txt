@@ -1,0 +1,10 @@
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\bin\Release\FileRefrenceChecker.exe.config
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\bin\Release\FileRefrenceChecker.exe
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\bin\Release\FileRefrenceChecker.pdb
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\obj\Release\FileRefrenceChecker.csprojAssemblyReference.cache
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\obj\Release\FileRefrenceChecker.Form1.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\obj\Release\FileRefrenceChecker.Properties.Resources.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\obj\Release\FileRefrenceChecker.csproj.GenerateResource.cache
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\obj\Release\FileRefrenceChecker.csproj.CoreCompileInputs.cache
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\obj\Release\FileRefrenceChecker.exe
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\obj\Release\FileRefrenceChecker.pdb
