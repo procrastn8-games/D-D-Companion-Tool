@@ -65,8 +65,7 @@ namespace dnd
         }
 
         private void CharacterCreationBTN_Click(object sender, EventArgs e)
-        {
-            
+        {            
             Boner1 sfrm = (Boner1)Application.OpenForms["Character"];
             if (sfrm == null)
             {

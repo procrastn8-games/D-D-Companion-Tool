@@ -58,7 +58,7 @@ namespace dnd
                 for (int i = 0; i < numDice; i++)
                 {
                     int roll = getRandom(crit);
-                    if (Environment.UserName.ToLower().Equals("muttman")){
+                    if (Environment.UserName.ToLower().Equals("lukas")){
                         roll = 1;
                     }
                     if (roll == crit && CanCrit) playCritSound();

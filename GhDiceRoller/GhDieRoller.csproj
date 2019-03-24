@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dnd\Cards\CheckCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Cards\CheckCard.Designer.cs">
+      <DependentUpon>CheckCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="dnd\Cards\DescriptorsControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -70,6 +76,12 @@
     <Compile Include="dnd\Classes\Descriptor.cs" />
     <Compile Include="dnd\Classes\Spell.cs" />
     <Compile Include="dnd\Classes\Weapon.cs" />
+    <Compile Include="dnd\Controls\ChecksSaves.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Controls\ChecksSaves.Designer.cs">
+      <DependentUpon>ChecksSaves.cs</DependentUpon>
+    </Compile>
     <Compile Include="dnd\Forms\Boner1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +154,9 @@
     <Compile Include="settingsFrm.Designer.cs">
       <DependentUpon>settingsFrm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="dnd\Cards\CheckCard.resx">
+      <DependentUpon>CheckCard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dnd\Cards\DescriptorsControl.resx">
       <DependentUpon>DescriptorsControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,6 +171,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="dnd\Controls\ArmorControl.resx">
       <DependentUpon>ArmorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\ChecksSaves.resx">
+      <DependentUpon>ChecksSaves.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dnd\Forms\Boner1.resx">
       <DependentUpon>Boner1.cs</DependentUpon>

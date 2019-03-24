@@ -116,3 +116,5 @@ C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.dnd.Cards.DescriptorsControl.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.dnd.Cards.TopCard.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.DescriptorControl.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.dnd.Cards.CheckCard.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.dnd.Controls.ChecksSaves.resources

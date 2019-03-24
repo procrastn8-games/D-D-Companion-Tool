@@ -62,7 +62,7 @@ namespace dnd.Controls
 
         private void CheckSaveBtn_Click(object sender, EventArgs e)
         {
-           //
+            switchTo(new dnd.Controls.ChecksSaves(hero));
         }
         private void FeatsBtn_Click(object sender, EventArgs e)
         {
