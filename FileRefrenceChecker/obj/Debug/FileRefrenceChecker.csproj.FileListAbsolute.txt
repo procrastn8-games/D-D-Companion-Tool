@@ -7,3 +7,4 @@ C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceCheck
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.csproj.CoreCompileInputs.cache
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.exe
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.pdb
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.csprojAssemblyReference.cache

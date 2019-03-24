@@ -109,8 +109,10 @@ C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.PerceptionControl.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.ProficienyControl.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.SkillsControl.resources
-C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.SpellsControl.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.StatsControl.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.WeaponsControl.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.dnd.Cards.weaponCard.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.dnd.Forms.Form2.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.dnd.Cards.DescriptorsControl.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.dnd.Cards.TopCard.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.Controls.DescriptorControl.resources

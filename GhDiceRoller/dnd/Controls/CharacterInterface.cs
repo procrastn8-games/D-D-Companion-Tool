@@ -44,32 +44,34 @@ namespace dnd.Controls
 
         private void SpellsBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new SpellsControl(hero));
+            switchTo(new DescriptorControl(hero, "spell"));
         }
 
         private void AbilitiesBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new AbilityControl(hero));
+            switchTo(new DescriptorControl(hero, "abilities"));
         }
-
-        private void SkillsBtn_Click(object sender, EventArgs e)
+        private void EquipmentBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new SkillsControl(hero));
+            switchTo(new DescriptorControl(hero, "items"));
         }
-
         private void statsBtn_Click(object sender, EventArgs e)
         {
             switchTo(new StatsControl(hero));
         }
 
-        private void ArmorBtn_Click(object sender, EventArgs e)
+        private void CheckSaveBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new ArmorControl(hero));
+           //
+        }
+        private void FeatsBtn_Click(object sender, EventArgs e)
+        {
+            switchTo(new DescriptorControl(hero, "spell"));
         }
 
         private void ProficencyBtn_Click(object sender, EventArgs e)
         {
-            switchTo(new ProficienyControl(hero));
+            switchTo(new DescriptorControl(hero, "profish"));
         }
 
         private void PerceptionBtn_Click(object sender, EventArgs e)
@@ -105,5 +107,6 @@ namespace dnd.Controls
         {
 
         }
+
     }
 }

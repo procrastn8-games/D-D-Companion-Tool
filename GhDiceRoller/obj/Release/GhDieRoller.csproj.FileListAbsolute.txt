@@ -59,7 +59,6 @@ C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\dnd.Controls.PerceptionControl.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\dnd.Controls.ProficienyControl.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\dnd.Controls.SkillsControl.resources
-C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\dnd.Controls.SpellsControl.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\dnd.Controls.StatsControl.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\dnd.Controls.WeaponsControl.resources
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\dnd.dnd.Forms.Form2.resources
@@ -70,3 +69,6 @@ C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\GhDieRoller.csproj.CoreCompileInputs.cache
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\GhDiceRoller.exe
 C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\GhDiceRoller.pdb
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\dnd.dnd.Cards.DescriptorsControl.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\dnd.dnd.Cards.TopCard.resources
+C:\Users\TheJ\Source\Repos\procrastn8-games\D-D-Companion-Tool\GhDiceRoller\obj\Release\dnd.Controls.DescriptorControl.resources

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using dnd.dnd.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,13 +18,14 @@ namespace dnd.dnd
         public string intelligence;
         public string charisma;
 
-        public List<string> weapons;
-        public List<string> armor;
-        public List<string> equipment;
-        public List<string> spells;
-        public List<string> proficiencies;
-        public List<string> features;
+        public List<Weapon> weapons;
+        public List<Descriptor> armor;
+        public List<Descriptor> items;
+        public List<Descriptor> spells;
+        public List<Descriptor> proficiencies;
+        public List<Descriptor> features;
         public List<Skill> SkillList;
+        public List<Descriptor> abilities;
 
         public int level;
         public string HeroClass;
@@ -33,7 +35,9 @@ namespace dnd.dnd
         public int initiative;
         public int speed;
         public int armorClass;
+
         
+
 
 
         // acrobatics -dex 
@@ -55,7 +59,7 @@ namespace dnd.dnd
         // stealth -dex
         // survival -wis
 
-       
+
 
     }
 }

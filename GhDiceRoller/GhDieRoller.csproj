@@ -49,12 +49,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dnd\Cards\DescriptorsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Cards\DescriptorsControl.Designer.cs">
+      <DependentUpon>DescriptorsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dnd\Cards\TopCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Cards\TopCard.Designer.cs">
+      <DependentUpon>TopCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="dnd\Cards\weaponCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="dnd\Cards\weaponCard.Designer.cs">
       <DependentUpon>weaponCard.cs</DependentUpon>
     </Compile>
+    <Compile Include="dnd\Classes\Descriptor.cs" />
     <Compile Include="dnd\Classes\Spell.cs" />
     <Compile Include="dnd\Classes\Weapon.cs" />
     <Compile Include="dnd\Forms\Boner1.cs">
@@ -129,6 +142,12 @@
     <Compile Include="settingsFrm.Designer.cs">
       <DependentUpon>settingsFrm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="dnd\Cards\DescriptorsControl.resx">
+      <DependentUpon>DescriptorsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Cards\TopCard.resx">
+      <DependentUpon>TopCard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dnd\Cards\weaponCard.resx">
       <DependentUpon>weaponCard.cs</DependentUpon>
     </EmbeddedResource>

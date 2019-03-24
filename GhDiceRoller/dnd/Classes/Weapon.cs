@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace dnd.dnd.Classes
 {
-    class Weapon
+   public class Weapon
     {
         public string name;
         public bool isProficient;
@@ -18,14 +18,5 @@ namespace dnd.dnd.Classes
         //icon //show +stat modifier
         //strength or dex label
         //maybe let user add own icon if wanted.
-
-        public Weapon(string name, bool proficiency, int mod, string icoPath)
-        {
-            this.name = name;
-            this.isProficient = proficiency;
-            this.modifier = mod;
-            this.icoPath = icoPath;
-        }
-
     }
 }

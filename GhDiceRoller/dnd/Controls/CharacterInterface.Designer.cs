@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CharacterInterface));
             this.Main_Panel = new System.Windows.Forms.Panel();
-            this.PerceptionBtn = new System.Windows.Forms.Button();
+            this.checksSavesBtn = new System.Windows.Forms.Button();
             this.ProficencyBtn = new System.Windows.Forms.Button();
-            this.ArmorBtn = new System.Windows.Forms.Button();
+            this.FeatsBtn = new System.Windows.Forms.Button();
             this.statsBtn = new System.Windows.Forms.Button();
             this.SkillsBtn = new System.Windows.Forms.Button();
             this.AbilitiesBtn = new System.Windows.Forms.Button();
@@ -55,9 +55,9 @@
             this.Main_Panel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Main_Panel.BackgroundImage = global::dnd.Properties.Resources.Interface;
             this.Main_Panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Main_Panel.Controls.Add(this.PerceptionBtn);
+            this.Main_Panel.Controls.Add(this.checksSavesBtn);
             this.Main_Panel.Controls.Add(this.ProficencyBtn);
-            this.Main_Panel.Controls.Add(this.ArmorBtn);
+            this.Main_Panel.Controls.Add(this.FeatsBtn);
             this.Main_Panel.Controls.Add(this.statsBtn);
             this.Main_Panel.Controls.Add(this.SkillsBtn);
             this.Main_Panel.Controls.Add(this.AbilitiesBtn);
@@ -70,21 +70,21 @@
             this.Main_Panel.Size = new System.Drawing.Size(298, 400);
             this.Main_Panel.TabIndex = 0;
             // 
-            // PerceptionBtn
+            // checksSavesBtn
             // 
-            this.PerceptionBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.checksSavesBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.PerceptionBtn.BackColor = System.Drawing.Color.Transparent;
-            this.PerceptionBtn.BackgroundImage = global::dnd.Properties.Resources.Volume;
-            this.PerceptionBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PerceptionBtn.FlatAppearance.BorderSize = 0;
-            this.PerceptionBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PerceptionBtn.Location = new System.Drawing.Point(55, 364);
-            this.PerceptionBtn.Name = "PerceptionBtn";
-            this.PerceptionBtn.Size = new System.Drawing.Size(29, 28);
-            this.PerceptionBtn.TabIndex = 37;
-            this.PerceptionBtn.UseVisualStyleBackColor = false;
-            this.PerceptionBtn.Click += new System.EventHandler(this.PerceptionBtn_Click);
+            this.checksSavesBtn.BackColor = System.Drawing.Color.Transparent;
+            this.checksSavesBtn.BackgroundImage = global::dnd.Properties.Resources.Volume;
+            this.checksSavesBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.checksSavesBtn.FlatAppearance.BorderSize = 0;
+            this.checksSavesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checksSavesBtn.Location = new System.Drawing.Point(55, 364);
+            this.checksSavesBtn.Name = "checksSavesBtn";
+            this.checksSavesBtn.Size = new System.Drawing.Size(29, 28);
+            this.checksSavesBtn.TabIndex = 37;
+            this.checksSavesBtn.UseVisualStyleBackColor = false;
+            this.checksSavesBtn.Click += new System.EventHandler(this.PerceptionBtn_Click);
             // 
             // ProficencyBtn
             // 
@@ -100,22 +100,22 @@
             this.ProficencyBtn.Size = new System.Drawing.Size(29, 28);
             this.ProficencyBtn.TabIndex = 36;
             this.ProficencyBtn.UseVisualStyleBackColor = false;
-            this.ProficencyBtn.Click += new System.EventHandler(this.PerceptionBtn_Click);
+            this.ProficencyBtn.Click += new System.EventHandler(this.CheckSaveBtn_Click);
             // 
-            // ArmorBtn
+            // FeatsBtn
             // 
-            this.ArmorBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.ArmorBtn.BackColor = System.Drawing.Color.Transparent;
-            this.ArmorBtn.BackgroundImage = global::dnd.Properties.Resources.Thieving1;
-            this.ArmorBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ArmorBtn.FlatAppearance.BorderSize = 0;
-            this.ArmorBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ArmorBtn.Location = new System.Drawing.Point(257, 8);
-            this.ArmorBtn.Name = "ArmorBtn";
-            this.ArmorBtn.Size = new System.Drawing.Size(29, 28);
-            this.ArmorBtn.TabIndex = 35;
-            this.ArmorBtn.UseVisualStyleBackColor = false;
-            this.ArmorBtn.Click += new System.EventHandler(this.ProficencyBtn_Click);
+            this.FeatsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.FeatsBtn.BackColor = System.Drawing.Color.Transparent;
+            this.FeatsBtn.BackgroundImage = global::dnd.Properties.Resources.Thieving1;
+            this.FeatsBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.FeatsBtn.FlatAppearance.BorderSize = 0;
+            this.FeatsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FeatsBtn.Location = new System.Drawing.Point(257, 8);
+            this.FeatsBtn.Name = "FeatsBtn";
+            this.FeatsBtn.Size = new System.Drawing.Size(29, 28);
+            this.FeatsBtn.TabIndex = 35;
+            this.FeatsBtn.UseVisualStyleBackColor = false;
+            this.FeatsBtn.Click += new System.EventHandler(this.FeatsBtn_Click);
             // 
             // statsBtn
             // 
@@ -130,7 +130,7 @@
             this.statsBtn.Size = new System.Drawing.Size(29, 28);
             this.statsBtn.TabIndex = 34;
             this.statsBtn.UseVisualStyleBackColor = false;
-            this.statsBtn.Click += new System.EventHandler(this.ArmorBtn_Click);
+            this.statsBtn.Click += new System.EventHandler(this.EquipmentBtn_Click);
             // 
             // SkillsBtn
             // 
@@ -289,12 +289,11 @@
         #endregion
 
         private System.Windows.Forms.Panel Main_Panel;
-        private System.Windows.Forms.Button PerceptionBtn;
+        private System.Windows.Forms.Button checksSavesBtn;
         private System.Windows.Forms.Button ProficencyBtn;
-        private System.Windows.Forms.Button ArmorBtn;
+        private System.Windows.Forms.Button FeatsBtn;
         private System.Windows.Forms.Button statsBtn;
         private System.Windows.Forms.Button SkillsBtn;
-        private System.Windows.Forms.Button AbilitiesBtn;
         private System.Windows.Forms.Button SpellsBtn;
         private System.Windows.Forms.Button WeaponsBtn;
         private System.Windows.Forms.Button CharacterSheetBtn;
@@ -303,5 +302,6 @@
         private System.Windows.Forms.Button Save;
         private System.Windows.Forms.Label CharacterLbl;
         public System.Windows.Forms.TextBox ChracterTxtBx;
+        private System.Windows.Forms.Button AbilitiesBtn;
     }
 }

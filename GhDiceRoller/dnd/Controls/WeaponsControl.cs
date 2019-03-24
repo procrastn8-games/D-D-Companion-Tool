@@ -1,5 +1,6 @@
 ﻿using System.Windows.Forms;
 using dnd.dnd;
+using dnd.dnd.Classes;
 
 namespace dnd.Controls
 {
@@ -33,6 +34,7 @@ namespace dnd.Controls
             this.FlowPnl.Size = new System.Drawing.Size(250, 327);
             this.FlowPnl.TabIndex = 0;
             this.FlowPnl.WrapContents = false;
+            this.FlowPnl.Paint += new System.Windows.Forms.PaintEventHandler(this.FlowPnl_Paint);
             // 
             // WeaponsControl
             // 
@@ -49,7 +51,7 @@ namespace dnd.Controls
         {
             if (hero.weapons == null)
             {
-                hero.weapons = new System.Collections.Generic.List<string>();
+                hero.weapons = new System.Collections.Generic.List<Weapon>();
 
             }
             
@@ -65,6 +67,11 @@ namespace dnd.Controls
                 this.FlowPnl.Controls.Add(new dnd.Cards.weaponCard());
                 this.FlowPnl.Controls.Add(new dnd.Cards.weaponCard());
                 this.FlowPnl.Controls.Add(new dnd.Cards.weaponCard());
+        }
+
+        private void FlowPnl_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
