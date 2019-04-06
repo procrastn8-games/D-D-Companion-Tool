@@ -315,12 +315,32 @@ namespace dnd.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Combat_icon {
+            get {
+                object obj = ResourceManager.GetObject("Combat_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream DOCTOR_STRANGE_Movie_Clip___Dormammu_Ive_Come_To_Bargain_Scene_4K_ULTRA_HD_2016_01 {
             get {
                 return ResourceManager.GetStream("DOCTOR_STRANGE_Movie_Clip___Dormammu_Ive_Come_To_Bargain_Scene_4K_ULTRA_HD_2016_0" +
                         "1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -363,6 +383,46 @@ namespace dnd.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_down_arrow_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-down-arrow-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_icosahedron_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-icosahedron-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_right_arrow_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-right-arrow-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_sword_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-sword-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream Illogical {
@@ -397,6 +457,16 @@ namespace dnd.Properties {
         internal static System.IO.UnmanagedMemoryStream Lost_Another_One {
             get {
                 return ResourceManager.GetStream("Lost_Another_One", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lunar_spellbook {
+            get {
+                object obj = ResourceManager.GetObject("Lunar_spellbook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -583,6 +653,16 @@ namespace dnd.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Notes_button {
+            get {
+                object obj = ResourceManager.GetObject("Notes_button", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NotVolume {
             get {
                 object obj = ResourceManager.GetObject("NotVolume", resourceCulture);
@@ -593,9 +673,49 @@ namespace dnd.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Quests_icon {
+            get {
+                object obj = ResourceManager.GetObject("Quests_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Settings {
             get {
                 object obj = ResourceManager.GetObject("Settings", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Stats_icon {
+            get {
+                object obj = ResourceManager.GetObject("Stats_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thieving {
+            get {
+                object obj = ResourceManager.GetObject("Thieving", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thieving1 {
+            get {
+                object obj = ResourceManager.GetObject("Thieving1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -616,6 +736,16 @@ namespace dnd.Properties {
         internal static System.Drawing.Bitmap Volume1 {
             get {
                 object obj = ResourceManager.GetObject("Volume1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Worn_equipment {
+            get {
+                object obj = ResourceManager.GetObject("Worn_equipment", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

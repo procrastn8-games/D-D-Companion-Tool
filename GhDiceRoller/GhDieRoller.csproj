@@ -49,22 +49,55 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dnd\Controls\Boner1.cs">
+    <Compile Include="dnd\Cards\CheckCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Cards\CheckCard.Designer.cs">
+      <DependentUpon>CheckCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dnd\Cards\DescriptorsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Cards\DescriptorsControl.Designer.cs">
+      <DependentUpon>DescriptorsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dnd\Cards\TopCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Cards\TopCard.Designer.cs">
+      <DependentUpon>TopCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dnd\Cards\weaponCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Cards\weaponCard.Designer.cs">
+      <DependentUpon>weaponCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dnd\Classes\Descriptor.cs" />
+    <Compile Include="dnd\Classes\Spell.cs" />
+    <Compile Include="dnd\Classes\Weapon.cs" />
+    <Compile Include="dnd\Controls\ChecksSaves.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd\Controls\ChecksSaves.Designer.cs">
+      <DependentUpon>ChecksSaves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dnd\Forms\Boner1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="dnd\Controls\Boner1.Designer.cs">
+    <Compile Include="dnd\Forms\Boner1.Designer.cs">
       <DependentUpon>Boner1.cs</DependentUpon>
     </Compile>
-    <Compile Include="dnd\CharacterInterface.cs">
+    <Compile Include="dnd\Controls\CharacterInterface.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\CharacterInterface.Designer.cs">
+    <Compile Include="dnd\Controls\CharacterInterface.Designer.cs">
       <DependentUpon>CharacterInterface.cs</DependentUpon>
     </Compile>
-    <Compile Include="dnd\characterSheet.cs">
+    <Compile Include="dnd\Controls\characterSheet.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\characterSheet.Designer.cs">
+    <Compile Include="dnd\Controls\characterSheet.Designer.cs">
       <DependentUpon>characterSheet.cs</DependentUpon>
     </Compile>
     <Compile Include="DieRoller.cs">
@@ -99,6 +132,14 @@
     <Compile Include="dnd\Controls\WeaponsControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="dnd\Classes\Hero.cs" />
+    <Compile Include="dnd\Classes\Skill.cs" />
+    <Compile Include="dnd\Forms\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dnd\Forms\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,15 +154,60 @@
     <Compile Include="settingsFrm.Designer.cs">
       <DependentUpon>settingsFrm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="dnd\Controls\Boner1.resx">
+    <EmbeddedResource Include="dnd\Cards\CheckCard.resx">
+      <DependentUpon>CheckCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Cards\DescriptorsControl.resx">
+      <DependentUpon>DescriptorsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Cards\TopCard.resx">
+      <DependentUpon>TopCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Cards\weaponCard.resx">
+      <DependentUpon>weaponCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\AbilityControl.resx">
+      <DependentUpon>AbilityControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\ArmorControl.resx">
+      <DependentUpon>ArmorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\ChecksSaves.resx">
+      <DependentUpon>ChecksSaves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Forms\Boner1.resx">
       <DependentUpon>Boner1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\CharacterInterface.resx">
+    <EmbeddedResource Include="dnd\Controls\CharacterInterface.resx">
       <DependentUpon>CharacterInterface.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DieRoller.resx">
       <DependentUpon>DieRoller.cs</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\characterSheet.resx">
+      <DependentUpon>characterSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\PerceptionControl.resx">
+      <DependentUpon>PerceptionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\ProficienyControl.resx">
+      <DependentUpon>ProficienyControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\SkillsControl.resx">
+      <DependentUpon>SkillsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\SpellsControl.resx">
+      <DependentUpon>SpellsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\StatsControl.resx">
+      <DependentUpon>StatsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Controls\WeaponsControl.resx">
+      <DependentUpon>WeaponsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd\Forms\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -356,6 +442,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Good_Border.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notes_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Combat_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lunar_spellbook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quests_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stats_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Worn_equipment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thieving.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thieving1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-icosahedron-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sword-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-down-arrow-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-right-arrow-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

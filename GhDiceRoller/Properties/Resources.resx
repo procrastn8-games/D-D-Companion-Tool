@@ -118,59 +118,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Interface" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Interface.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_3_Plastic_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\3_Plastic_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="_3_Plastic_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\3_Plastic_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Border1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_3_Plastic_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\3_Plastic_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Mixed_4_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\Mixed\Mixed_4_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Fancy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\special\Fancy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Mixed_4_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\Mixed\Mixed_4_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Many_Metal_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\Many_Metal_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Butter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\special\Butter.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Lost_Another_One" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\special\Lost_Another_One.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Many_Plastic_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\Many_Plastic_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mixed_4_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\Mixed\Mixed_4_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Many_Metal_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\Many_Metal_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mixed_3_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\Mixed\Mixed_3_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="_2_Plastic_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2_Plastic_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Mixed_2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sound\Mixed\Mixed_2_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Settings.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Lost_Another_One" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\special\Lost_Another_One.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="_3_Metal_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\3_Metal_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Many_Plastic_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\Many_Plastic_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3_Metal_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\3_Metal_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_2_Plastic_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\2_Plastic_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mixed_3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\Mixed\Mixed_3_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Many_Metal_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\Many_Metal_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="You_re_Fucked_mixdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\special\You're Fucked_mixdown.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="_2_Plastic_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sound\plastic\2_Plastic_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -178,130 +151,196 @@
   <data name="Mixed_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sound\Mixed\Mixed_2_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Mixed_4_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\Mixed\Mixed_4_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_2_Metal_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\2_Metal_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Volume1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Volume.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_3_Metal_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\3_Metal_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mixed_2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\Mixed\Mixed_2_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_2_Plastic_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2_Plastic_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Iconcubic_Dnd_Dice_D12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iconcubic-Dnd-Dice-D12.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_1_Plastic_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\1_Plastic_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Illogical" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\special\Illogical.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="InterfaceBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\InterfaceBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2_Metal_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\2_Metal_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="You_re_Fucked_mixdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\special\You're Fucked_mixdown.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CharacterSheetButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CharacterSheetButton.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_3_Plastic_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\3_Plastic_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_1_Plastic_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\1_Plastic_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mixed_4_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\Mixed\Mixed_4_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_1_metal_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\1_metal_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mixed_4_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\Mixed\Mixed_4_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mixed_3_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\Mixed\Mixed_3_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Volume" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Volume.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_1_Plastic_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\1_Plastic_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Fucked_Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sound\special\Fucked Up.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_2_Metal_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\2_Metal_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_1_Metal_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\1_Metal_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="DOCTOR_STRANGE_Movie_Clip___Dormammu_Ive_Come_To_Bargain_Scene_4K_ULTRA_HD_2016_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\special\DOCTOR STRANGE Movie Clip - Dormammu Ive Come To Bargain Scene 4K ULTRA HD 2016_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Mixed_3_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\Mixed\Mixed_3_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Many_Plastic_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\Many_Plastic_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_1_Metal_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\1_Metal_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_3_Metal_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\3_Metal_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Many_Metal_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\metal\Many_Metal_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="_1_Metal_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sound\metal\1_Metal_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="NotVolume" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NotVolume.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_3_Metal_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\3_Metal_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="_2_Plastic_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\2_Plastic_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Many_Plastic_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\Many_Plastic_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_1_Plastic_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\plastic\1_Plastic_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Awful" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\special\Awful.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Mixed_3_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\Mixed\Mixed_3_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="_2_Metal_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sound\metal\2_Metal_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Quests_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quests_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1_Plastic_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\1_Plastic_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mixed_3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\Mixed\Mixed_3_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="_3_Plastic_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sound\plastic\3_Plastic_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Butter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sound\special\Butter.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="_3_Plastic_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\3_Plastic_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Volume1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Volume.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3_Plastic_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\3_Plastic_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_1_Metal_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\1_Metal_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NotVolume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NotVolume.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3_Metal_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\3_Metal_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Illogical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\special\Illogical.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3_Metal_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\3_Metal_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Awful" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\special\Awful.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mixed_4_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\Mixed\Mixed_4_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Many_Metal_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\Many_Metal_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Many_Metal_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\Many_Metal_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lunar_spellbook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lunar_spellbook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-sword-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-sword-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Settings.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1_Metal_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\1_Metal_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InterfaceBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InterfaceBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Volume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Volume.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1_Plastic_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\1_Plastic_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Good_Border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Good_Border.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Interface" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Interface.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1_Plastic_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\1_Plastic_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Many_Plastic_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\Many_Plastic_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Thieving" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thieving.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Many_Plastic_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\Many_Plastic_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CharacterSheetButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CharacterSheetButton.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Many_Plastic_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\Many_Plastic_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Combat_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Combat_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_Metal_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\2_Metal_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="icons8-icosahedron-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-icosahedron-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_Plastic_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\2_Plastic_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Stats_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stats_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Mixed_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sound\Mixed\Mixed_2_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Border" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Border1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Mixed_4_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\Mixed\Mixed_4_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Good_Border" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Good_Border.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_1_metal_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\1_metal_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_2_Metal_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\2_Metal_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Worn_equipment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Worn_equipment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1_Plastic_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\1_Plastic_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Thieving1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thieving1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-down-arrow-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-down-arrow-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Notes_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notes_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Many_Plastic_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\Many_Plastic_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mixed_3_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\Mixed\Mixed_3_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3_Metal_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\3_Metal_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_2_Plastic_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\plastic\2_Plastic_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Many_Metal_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\Many_Metal_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mixed_3_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\Mixed\Mixed_3_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Many_Metal_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\Many_Metal_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DOCTOR_STRANGE_Movie_Clip___Dormammu_Ive_Come_To_Bargain_Scene_4K_ULTRA_HD_2016_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\special\DOCTOR STRANGE Movie Clip - Dormammu Ive Come To Bargain Scene 4K ULTRA HD 2016_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mixed_2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\Mixed\Mixed_2_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iconcubic_Dnd_Dice_D12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconcubic-Dnd-Dice-D12.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fancy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\special\Fancy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_Metal_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound\metal\2_Metal_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="icons8-right-arrow-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-right-arrow-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

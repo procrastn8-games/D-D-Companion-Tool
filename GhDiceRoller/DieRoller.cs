@@ -25,7 +25,7 @@ namespace dnd
             DieNumTxt.Text = "" + (int.Parse(DieNumTxt.Text) + 1);
         }
 
-        internal static dnd.DiceRollForm getForm()
+        internal static DiceRollForm getForm()
         {
             DiceRollForm dr = (DiceRollForm)Application.OpenForms["DiceRollForm"];
             return dr;
@@ -58,7 +58,7 @@ namespace dnd
                 for (int i = 0; i < numDice; i++)
                 {
                     int roll = getRandom(crit);
-                    if (Environment.UserName.ToLower().Equals("MuttmanHD")){
+                    if (Environment.UserName.ToLower().Equals("lukas")){
                         roll = 1;
                     }
                     if (roll == crit && CanCrit) playCritSound();

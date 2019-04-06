@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace dnd.Controls
+namespace dnd.dnd.Cards
 {
-    public partial class characterSheet : UserControl
+    public partial class DescriptorsControl : UserControl
     {
-        public characterSheet()
+        public DescriptorsControl()
         {
             InitializeComponent();
+        }
+
+        private void NameLbl_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

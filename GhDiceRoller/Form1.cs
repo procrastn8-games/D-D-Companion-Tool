@@ -21,7 +21,7 @@ namespace dnd
             List<int> usefullNums = new List<int> { 2, 4, 6, 10, 12, 20, 100 };
             foreach(int num in usefullNums)
             {
-                FlowPnl.Controls.Add(new dnd.DieRoller(num));
+                FlowPnl.Controls.Add(new DieRoller(num));
             }
 
         }
@@ -65,8 +65,7 @@ namespace dnd
         }
 
         private void CharacterCreationBTN_Click(object sender, EventArgs e)
-        {
-            
+        {            
             Boner1 sfrm = (Boner1)Application.OpenForms["Character"];
             if (sfrm == null)
             {
@@ -85,6 +84,13 @@ namespace dnd
         private void DiceRollForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dnd.Forms.Form2 f2 = new dnd.Forms.Form2(this);
+            f2.Show();
+            this.Hide();
         }
     }
 }
