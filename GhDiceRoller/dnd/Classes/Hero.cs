@@ -10,6 +10,7 @@ namespace dnd.dnd
 
     public class Hero
     {
+
         public string name = "";
 
         public int strength;
@@ -37,6 +38,60 @@ namespace dnd.dnd
         public int initiative;
         public int speed;
         public int armorClass;
+
+        public Hero()
+        {
+            this.name = "";
+            this.strength = 0;
+            this.dexterity = 0;
+            this.constitution = 0;
+            this.wisdom = 0;
+            this.intelligence = 0;
+            this.charisma = 0;
+            this.weapons = new List<Weapon>();
+            this.armor = new List<Descriptor>();
+            this.items =  new List<Descriptor>();
+            this.spells = new List<Descriptor>();
+            this.proficiencies = new List<Descriptor>();
+            this.features = new List<Descriptor>();
+            SkillList = new List<Skill>();
+            this.abilities = new List<Descriptor>();
+            this.level = 0;
+            this.xp = 0;
+            HeroClass = "";
+            Maxhp = 0;
+            this.remainingHp = 0;
+            this.initiative = 0;
+            this.speed = 0;
+            this.armorClass = 0;
+        }
+
+        public Hero(string name, int strength, int dexterity, int constitution, int wisdom, int intelligence, int charisma, List<Weapon> weapons, List<Descriptor> armor, List<Descriptor> items, List<Descriptor> spells, List<Descriptor> proficiencies, List<Descriptor> features, List<Skill> skillList, List<Descriptor> abilities, int level, int xp, string heroClass, int maxhp, int remainingHp, int initiative, int speed, int armorClass)
+        {
+            this.name = name;
+            this.strength = strength;
+            this.dexterity = dexterity;
+            this.constitution = constitution;
+            this.wisdom = wisdom;
+            this.intelligence = intelligence;
+            this.charisma = charisma;
+            this.weapons = weapons;
+            this.armor = armor;
+            this.items = items;
+            this.spells = spells;
+            this.proficiencies = proficiencies;
+            this.features = features;
+            SkillList = skillList;
+            this.abilities = abilities;
+            this.level = level;
+            this.xp = xp;
+            HeroClass = heroClass;
+            Maxhp = maxhp;
+            this.remainingHp = remainingHp;
+            this.initiative = initiative;
+            this.speed = speed;
+            this.armorClass = armorClass;
+        }
 
         private int getModifier(int level)
         {

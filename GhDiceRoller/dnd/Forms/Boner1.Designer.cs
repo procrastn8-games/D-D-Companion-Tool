@@ -58,6 +58,7 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Character1";
             this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Leave += new System.EventHandler(this.tabPage_Leave);
             // 
             // PlusBtn
             // 
