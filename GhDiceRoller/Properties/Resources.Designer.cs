@@ -19,7 +19,7 @@ namespace dnd.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -286,16 +286,6 @@ namespace dnd.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Border {
-            get {
-                object obj = ResourceManager.GetObject("Border", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream Butter {
@@ -365,26 +355,6 @@ namespace dnd.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Good_Border {
-            get {
-                object obj = ResourceManager.GetObject("Good_Border", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon Iconcubic_Dnd_Dice_D12 {
-            get {
-                object obj = ResourceManager.GetObject("Iconcubic_Dnd_Dice_D12", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap icons8_down_arrow_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-down-arrow-50", resourceCulture);
@@ -428,26 +398,6 @@ namespace dnd.Properties {
         internal static System.IO.UnmanagedMemoryStream Illogical {
             get {
                 return ResourceManager.GetStream("Illogical", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Interface {
-            get {
-                object obj = ResourceManager.GetObject("Interface", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap InterfaceBG {
-            get {
-                object obj = ResourceManager.GetObject("InterfaceBG", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

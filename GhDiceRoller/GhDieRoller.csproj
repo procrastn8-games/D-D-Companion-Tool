@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>dnd</RootNamespace>
     <AssemblyName>GhDiceRoller</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,55 +50,67 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dnd\Cards\CheckCard.cs">
+    <Compile Include="dnd_stuff\Cards\CheckCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Cards\CheckCard.Designer.cs">
+    <Compile Include="dnd_stuff\Cards\CheckCard.Designer.cs">
       <DependentUpon>CheckCard.cs</DependentUpon>
     </Compile>
-    <Compile Include="dnd\Cards\DescriptorsControl.cs">
+    <Compile Include="dnd_stuff\Cards\DescriptorsControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Cards\DescriptorsControl.Designer.cs">
+    <Compile Include="dnd_stuff\Cards\DescriptorsControl.Designer.cs">
       <DependentUpon>DescriptorsControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="dnd\Cards\TopCard.cs">
+    <Compile Include="dnd_stuff\Cards\TopCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Cards\TopCard.Designer.cs">
+    <Compile Include="dnd_stuff\Cards\TopCard.Designer.cs">
       <DependentUpon>TopCard.cs</DependentUpon>
     </Compile>
-    <Compile Include="dnd\Cards\weaponCard.cs">
+    <Compile Include="dnd_stuff\Cards\weaponCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Cards\weaponCard.Designer.cs">
+    <Compile Include="dnd_stuff\Cards\weaponCard.Designer.cs">
       <DependentUpon>weaponCard.cs</DependentUpon>
     </Compile>
-    <Compile Include="dnd\Classes\Descriptor.cs" />
-    <Compile Include="dnd\Classes\Spell.cs" />
-    <Compile Include="dnd\Classes\Weapon.cs" />
-    <Compile Include="dnd\Controls\ChecksSaves.cs">
+    <Compile Include="dnd_stuff\Classes\Descriptor.cs" />
+    <Compile Include="dnd_stuff\Classes\Spell.cs" />
+    <Compile Include="dnd_stuff\Classes\Weapon.cs" />
+    <Compile Include="dnd_stuff\Controls\ChecksSaves.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Controls\ChecksSaves.Designer.cs">
+    <Compile Include="dnd_stuff\Controls\ChecksSaves.Designer.cs">
       <DependentUpon>ChecksSaves.cs</DependentUpon>
     </Compile>
-    <Compile Include="dnd\Forms\Boner1.cs">
+    <Compile Include="dnd_stuff\Controls\HeroWatch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd_stuff\Controls\HeroWatch.Designer.cs">
+      <DependentUpon>HeroWatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dnd_stuff\Controls\RollerSelector thing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dnd_stuff\Controls\RollerSelector thing.Designer.cs">
+      <DependentUpon>RollerSelector thing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dnd_stuff\Forms\Boner1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="dnd\Forms\Boner1.Designer.cs">
+    <Compile Include="dnd_stuff\Forms\Boner1.Designer.cs">
       <DependentUpon>Boner1.cs</DependentUpon>
     </Compile>
-    <Compile Include="dnd\Controls\CharacterInterface.cs">
+    <Compile Include="dnd_stuff\Controls\CharacterInterface.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Controls\CharacterInterface.Designer.cs">
+    <Compile Include="dnd_stuff\Controls\CharacterInterface.Designer.cs">
       <DependentUpon>CharacterInterface.cs</DependentUpon>
     </Compile>
-    <Compile Include="dnd\Controls\characterSheet.cs">
+    <Compile Include="dnd_stuff\Controls\characterSheet.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Controls\characterSheet.Designer.cs">
+    <Compile Include="dnd_stuff\Controls\characterSheet.Designer.cs">
       <DependentUpon>characterSheet.cs</DependentUpon>
     </Compile>
     <Compile Include="DieRoller.cs">
@@ -108,36 +121,36 @@
       <DependentUpon>DieRoller.cs</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="dnd\Controls\AbilityControl.cs">
+    <Compile Include="dnd_stuff\Controls\AbilityControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Controls\ArmorControl.cs">
+    <Compile Include="dnd_stuff\Controls\ArmorControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Controls\PerceptionControl.cs">
+    <Compile Include="dnd_stuff\Controls\PerceptionControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Controls\ProficienyControl.cs">
+    <Compile Include="dnd_stuff\Controls\ProficienyControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Controls\SkillsControl.cs">
+    <Compile Include="dnd_stuff\Controls\SkillsControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Controls\SpellsControl.cs">
+    <Compile Include="dnd_stuff\Controls\SpellsControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Controls\StatsControl.cs">
+    <Compile Include="dnd_stuff\Controls\StatsControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Controls\WeaponsControl.cs">
+    <Compile Include="dnd_stuff\Controls\WeaponsControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="dnd\Classes\Hero.cs" />
-    <Compile Include="dnd\Classes\Skill.cs" />
-    <Compile Include="dnd\Forms\Form2.cs">
+    <Compile Include="dnd_stuff\Classes\Hero.cs" />
+    <Compile Include="dnd_stuff\Classes\Skill.cs" />
+    <Compile Include="dnd_stuff\Forms\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="dnd\Forms\Form2.Designer.cs">
+    <Compile Include="dnd_stuff\Forms\Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
@@ -154,59 +167,65 @@
     <Compile Include="settingsFrm.Designer.cs">
       <DependentUpon>settingsFrm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="dnd\Cards\CheckCard.resx">
+    <EmbeddedResource Include="dnd_stuff\Cards\CheckCard.resx">
       <DependentUpon>CheckCard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Cards\DescriptorsControl.resx">
+    <EmbeddedResource Include="dnd_stuff\Cards\DescriptorsControl.resx">
       <DependentUpon>DescriptorsControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Cards\TopCard.resx">
+    <EmbeddedResource Include="dnd_stuff\Cards\TopCard.resx">
       <DependentUpon>TopCard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Cards\weaponCard.resx">
+    <EmbeddedResource Include="dnd_stuff\Cards\weaponCard.resx">
       <DependentUpon>weaponCard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Controls\AbilityControl.resx">
+    <EmbeddedResource Include="dnd_stuff\Controls\AbilityControl.resx">
       <DependentUpon>AbilityControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Controls\ArmorControl.resx">
+    <EmbeddedResource Include="dnd_stuff\Controls\ArmorControl.resx">
       <DependentUpon>ArmorControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Controls\ChecksSaves.resx">
+    <EmbeddedResource Include="dnd_stuff\Controls\ChecksSaves.resx">
       <DependentUpon>ChecksSaves.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Forms\Boner1.resx">
+    <EmbeddedResource Include="dnd_stuff\Controls\HeroWatch.resx">
+      <DependentUpon>HeroWatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd_stuff\Controls\RollerSelector thing.resx">
+      <DependentUpon>RollerSelector thing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dnd_stuff\Forms\Boner1.resx">
       <DependentUpon>Boner1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Controls\CharacterInterface.resx">
+    <EmbeddedResource Include="dnd_stuff\Controls\CharacterInterface.resx">
       <DependentUpon>CharacterInterface.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DieRoller.resx">
       <DependentUpon>DieRoller.cs</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Controls\characterSheet.resx">
+    <EmbeddedResource Include="dnd_stuff\Controls\characterSheet.resx">
       <DependentUpon>characterSheet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Controls\PerceptionControl.resx">
+    <EmbeddedResource Include="dnd_stuff\Controls\PerceptionControl.resx">
       <DependentUpon>PerceptionControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Controls\ProficienyControl.resx">
+    <EmbeddedResource Include="dnd_stuff\Controls\ProficienyControl.resx">
       <DependentUpon>ProficienyControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Controls\SkillsControl.resx">
+    <EmbeddedResource Include="dnd_stuff\Controls\SkillsControl.resx">
       <DependentUpon>SkillsControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Controls\SpellsControl.resx">
+    <EmbeddedResource Include="dnd_stuff\Controls\SpellsControl.resx">
       <DependentUpon>SpellsControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Controls\StatsControl.resx">
+    <EmbeddedResource Include="dnd_stuff\Controls\StatsControl.resx">
       <DependentUpon>StatsControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Controls\WeaponsControl.resx">
+    <EmbeddedResource Include="dnd_stuff\Controls\WeaponsControl.resx">
       <DependentUpon>WeaponsControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dnd\Forms\Form2.resx">
+    <EmbeddedResource Include="dnd_stuff\Forms\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
@@ -225,6 +244,7 @@
     <EmbeddedResource Include="settingsFrm.resx">
       <DependentUpon>settingsFrm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

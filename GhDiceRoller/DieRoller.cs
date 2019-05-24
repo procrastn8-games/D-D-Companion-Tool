@@ -125,7 +125,7 @@ namespace dnd
             {
                 playPlastic(numDice);
             }
-            else if (rollers.ToLower().Equals("metal")){
+            else if (rollers.ToLower().Equals("Metal")){
                 playMetal(numDice);
             }
             else
@@ -412,6 +412,26 @@ namespace dnd
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void DieRoller_MouseEnter(object sender, EventArgs e)
+        {
+           this.BorderStyle = BorderStyle.FixedSingle;
+        }
+
+        private void DieRoller_MouseLeave(object sender, EventArgs e)
+        {
+           this.BorderStyle = BorderStyle.None;
+        }
+
+        private void Panel1_MouseEnter(object sender, EventArgs e)
+        {
+            this.BorderStyle = BorderStyle.FixedSingle;
+        }
+
+        private void Panel1_MouseLeave(object sender, EventArgs e)
+        {
+            this.BorderStyle = BorderStyle.None;
         }
     }
 }
