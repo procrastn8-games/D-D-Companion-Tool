@@ -81,6 +81,7 @@
     <Compile Include="dnd_stuff\Cards\weaponCard.Designer.cs">
       <DependentUpon>weaponCard.cs</DependentUpon>
     </Compile>
+    <Compile Include="dnd_stuff\Classes\Ammo.cs" />
     <Compile Include="dnd_stuff\Classes\Descriptor.cs" />
     <Compile Include="dnd_stuff\Classes\Logic.cs" />
     <Compile Include="dnd_stuff\Classes\Spell.cs" />
@@ -208,6 +209,7 @@
     <EmbeddedResource Include="DieRoller.resx">
       <DependentUpon>DieRoller.cs</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="dnd_stuff\Controls\characterSheet.resx">
       <DependentUpon>characterSheet.cs</DependentUpon>

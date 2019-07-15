@@ -57,6 +57,60 @@ namespace dnd.dnd_stuff.Classes
                 h.isProfIntSaves = sheet.DexProfChk.Checked;
                 h.isProfWisSaves = sheet.WisProfChk.Checked;
                 h.isProfChaSaves = sheet.ChaProfChk.Checked;
+                //pull gen stats
+                h.armorClass = Int32.Parse(sheet.ACBx.Text);
+                h.initiative = Int32.Parse(sheet.InitBx.Text);
+                h.speed = Int32.Parse(sheet.SpdBx.Text);
+                h.remainingHp = Int32.Parse(sheet.HPBx.Text);
+                h.HitDice = sheet.HitDiceBx.Text;
+                h.GoodSaves = new List<bool>{ sheet.Succ1Die.Checked, sheet.Succ2Die.Checked, sheet.Succ3Die.Checked };
+                h.FailSaves = new List<bool> { sheet.Fail1Die.Checked, sheet.Fail2Die.Checked, sheet.Fail3Die.Checked };
+                //get proffs and traits and langs and items
+                h.ProfAbilField = sheet.ProfBx.Text;
+                h.Langs = sheet.LangBx.Text;
+                h.ItemsFld = sheet.ItemBx.Text;
+                //get weapons
+                Weapon wep1 = new Weapon
+                {
+                    name = sheet.Wep1WepBx.Text,
+                    DmgDie = sheet.Wep1DmgBx.Text,
+                    DmgType = sheet.Wep1TypeBx,
+                    Note = sheet.Wep1NotesBx
+                };
+                Weapon wep2 = new Weapon
+                {
+                    name = sheet.Wep2WepBx.Text,
+                    DmgDie = sheet.Wep2DmgBx.Text,
+                    DmgType = sheet.Wep2TypeBx,
+                    Note = sheet.Wep2NotesBx
+                };
+                Weapon wep3 = new Weapon
+                {
+                    name = sheet.Wep3WepBx.Text,
+                    DmgDie = sheet.Wep3DmgBx.Text,
+                    DmgType = sheet.Wep3TypeBx,
+                    Note = sheet.Wep3NotesBx
+                };
+                h.weapons = new List<Weapon> { wep1, wep2, wep3 };
+                //get Ammo
+                Ammo Ammo1 = new Ammo
+                {
+                    name = sheet.Ammo1AmmoBx.Text,
+                    Amt = sheet.Ammo1AmtBx.Text
+                };
+                Ammo Ammo2 = new Ammo
+                {
+                    name = sheet.Ammo2AmmoBx.Text,
+                    Amt = sheet.Ammo2AmtBx.Text
+                }; Ammo Ammo3 = new Ammo
+                {
+                    name = sheet.Ammo3AmmoBx.Text,
+                    Amt = sheet.Ammo3AmtBx.Text
+                };
+                h.Ammo = new List<Ammo> {Ammo1,Ammo2,Ammo3};
+                //get treasure and other equips
+                h.treasure = sheet.TresBx.Text;
+                h.Equipment = sheet.OtherEquipBx.Text;
 
 
 

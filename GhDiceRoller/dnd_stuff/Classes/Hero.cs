@@ -40,7 +40,7 @@ namespace dnd.dnd_stuff
         public int armorClass;
         public string allignment;
         public string race;
-       
+        public string ProfAbilField;
 
         public Hero()
         {
@@ -104,6 +104,14 @@ namespace dnd.dnd_stuff
         public bool isProfWisSaves { get;  set; }
         public bool isProfChaSaves { get;  set; }
         public bool isProfDexSaves { get;  set; }
+        public string HitDice { get; set; }
+        public List<bool> GoodSaves { get; set; }
+        public List<bool> FailSaves { get; set; }
+        public string Langs { get; set; }
+        public string ItemsFld { get; set; }
+        public string treasure { get; set; }
+        public string Equipment { get; set; }
+        public List<Ammo> Ammo { get; set; }
 
         private int getModifier(int level)
         {

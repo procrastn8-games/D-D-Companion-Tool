@@ -201,28 +201,34 @@
             this.EquipBx = new System.Windows.Forms.Label();
             this.OtherEquipBx = new System.Windows.Forms.RichTextBox();
             this.CharacterInfoPanel = new System.Windows.Forms.Panel();
-            this.NameLbl = new System.Windows.Forms.Label();
-            this.ClassBx = new System.Windows.Forms.TextBox();
-            this.ClassLbl = new System.Windows.Forms.Label();
-            this.NameBx = new System.Windows.Forms.TextBox();
-            this.ExpBx = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.ClassDiv = new System.Windows.Forms.Panel();
-            this.LvlDiv = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.LevelBx = new System.Windows.Forms.TextBox();
-            this.AllignDiv = new System.Windows.Forms.Panel();
-            this.AllignLbl = new System.Windows.Forms.Label();
-            this.AllignBx = new System.Windows.Forms.TextBox();
-            this.RaceDiv = new System.Windows.Forms.Panel();
-            this.RaceLbl = new System.Windows.Forms.Label();
-            this.RaceBx = new System.Windows.Forms.TextBox();
-            this.sexDiv = new System.Windows.Forms.Panel();
-            this.SexLbl = new System.Windows.Forms.Label();
-            this.SexBx = new System.Windows.Forms.TextBox();
             this.descDiv = new System.Windows.Forms.Panel();
             this.DescLbl = new System.Windows.Forms.Label();
             this.DescBx = new System.Windows.Forms.TextBox();
+            this.sexDiv = new System.Windows.Forms.Panel();
+            this.SexLbl = new System.Windows.Forms.Label();
+            this.SexBx = new System.Windows.Forms.TextBox();
+            this.RaceDiv = new System.Windows.Forms.Panel();
+            this.RaceLbl = new System.Windows.Forms.Label();
+            this.RaceBx = new System.Windows.Forms.TextBox();
+            this.AllignDiv = new System.Windows.Forms.Panel();
+            this.AllignLbl = new System.Windows.Forms.Label();
+            this.AllignBx = new System.Windows.Forms.TextBox();
+            this.ClassDiv = new System.Windows.Forms.Panel();
+            this.LvlDiv = new System.Windows.Forms.Panel();
+            this.ClassLbl = new System.Windows.Forms.Label();
+            this.NameLbl = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.ExpBx = new System.Windows.Forms.TextBox();
+            this.NameBx = new System.Windows.Forms.TextBox();
+            this.ClassBx = new System.Windows.Forms.TextBox();
+            this.LevelBx = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.ACDiv = new System.Windows.Forms.Panel();
+            this.ACBx = new System.Windows.Forms.TextBox();
+            this.InitDv = new System.Windows.Forms.Panel();
+            this.InitBx = new System.Windows.Forms.TextBox();
+            this.SpdDiv = new System.Windows.Forms.Panel();
+            this.SpdBx = new System.Windows.Forms.TextBox();
             this.SavesPnl.SuspendLayout();
             this.SkillPnl.SuspendLayout();
             this.STRBigPnl.SuspendLayout();
@@ -1523,6 +1529,8 @@
             // SpdPnl
             // 
             this.SpdPnl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.SpdPnl.Controls.Add(this.SpdDiv);
+            this.SpdPnl.Controls.Add(this.SpdBx);
             this.SpdPnl.Controls.Add(this.SpdLbl);
             this.SpdPnl.Location = new System.Drawing.Point(143, 5);
             this.SpdPnl.Margin = new System.Windows.Forms.Padding(5);
@@ -1544,6 +1552,8 @@
             // InitPnl
             // 
             this.InitPnl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.InitPnl.Controls.Add(this.InitDv);
+            this.InitPnl.Controls.Add(this.InitBx);
             this.InitPnl.Controls.Add(this.InitLbl);
             this.InitPnl.Location = new System.Drawing.Point(74, 5);
             this.InitPnl.Margin = new System.Windows.Forms.Padding(5);
@@ -1565,6 +1575,8 @@
             // ACPnl
             // 
             this.ACPnl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ACPnl.Controls.Add(this.ACDiv);
+            this.ACPnl.Controls.Add(this.ACBx);
             this.ACPnl.Controls.Add(this.AcLbl);
             this.ACPnl.Location = new System.Drawing.Point(5, 5);
             this.ACPnl.Margin = new System.Windows.Forms.Padding(5);
@@ -2134,177 +2146,37 @@
             this.CharacterInfoPanel.TabIndex = 145;
             this.CharacterInfoPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.CharacterInfoPanel_Paint);
             // 
-            // NameLbl
+            // descDiv
             // 
-            this.NameLbl.AutoSize = true;
-            this.NameLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameLbl.ForeColor = System.Drawing.SystemColors.Control;
-            this.NameLbl.Location = new System.Drawing.Point(141, 44);
-            this.NameLbl.Name = "NameLbl";
-            this.NameLbl.Size = new System.Drawing.Size(51, 20);
-            this.NameLbl.TabIndex = 6;
-            this.NameLbl.Text = "Name";
+            this.descDiv.BackColor = System.Drawing.Color.White;
+            this.descDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.descDiv.Location = new System.Drawing.Point(478, 97);
+            this.descDiv.Name = "descDiv";
+            this.descDiv.Size = new System.Drawing.Size(221, 3);
+            this.descDiv.TabIndex = 136;
             // 
-            // ClassBx
+            // DescLbl
             // 
-            this.ClassBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
-            this.ClassBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ClassBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ClassBx.ForeColor = System.Drawing.SystemColors.Window;
-            this.ClassBx.Location = new System.Drawing.Point(216, 5);
-            this.ClassBx.Multiline = true;
-            this.ClassBx.Name = "ClassBx";
-            this.ClassBx.Size = new System.Drawing.Size(235, 34);
-            this.ClassBx.TabIndex = 117;
+            this.DescLbl.AutoSize = true;
+            this.DescLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DescLbl.ForeColor = System.Drawing.SystemColors.Control;
+            this.DescLbl.Location = new System.Drawing.Point(476, 101);
+            this.DescLbl.Name = "DescLbl";
+            this.DescLbl.Size = new System.Drawing.Size(89, 20);
+            this.DescLbl.TabIndex = 134;
+            this.DescLbl.Text = "Description";
             // 
-            // ClassLbl
+            // DescBx
             // 
-            this.ClassLbl.AutoSize = true;
-            this.ClassLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ClassLbl.ForeColor = System.Drawing.SystemColors.Control;
-            this.ClassLbl.Location = new System.Drawing.Point(208, 43);
-            this.ClassLbl.Name = "ClassLbl";
-            this.ClassLbl.Size = new System.Drawing.Size(45, 20);
-            this.ClassLbl.TabIndex = 116;
-            this.ClassLbl.Text = "class";
-            // 
-            // NameBx
-            // 
-            this.NameBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
-            this.NameBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameBx.ForeColor = System.Drawing.SystemColors.Window;
-            this.NameBx.Location = new System.Drawing.Point(8, 14);
-            this.NameBx.Multiline = true;
-            this.NameBx.Name = "NameBx";
-            this.NameBx.Size = new System.Drawing.Size(190, 39);
-            this.NameBx.TabIndex = 118;
-            // 
-            // ExpBx
-            // 
-            this.ExpBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
-            this.ExpBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ExpBx.ForeColor = System.Drawing.SystemColors.Window;
-            this.ExpBx.Location = new System.Drawing.Point(8, 67);
-            this.ExpBx.Multiline = true;
-            this.ExpBx.Name = "ExpBx";
-            this.ExpBx.Size = new System.Drawing.Size(190, 39);
-            this.ExpBx.TabIndex = 120;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(141, 97);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 20);
-            this.label1.TabIndex = 119;
-            this.label1.Text = "EXP";
-            // 
-            // ClassDiv
-            // 
-            this.ClassDiv.BackColor = System.Drawing.Color.White;
-            this.ClassDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ClassDiv.Location = new System.Drawing.Point(210, 42);
-            this.ClassDiv.Name = "ClassDiv";
-            this.ClassDiv.Size = new System.Drawing.Size(239, 3);
-            this.ClassDiv.TabIndex = 121;
-            // 
-            // LvlDiv
-            // 
-            this.LvlDiv.BackColor = System.Drawing.Color.White;
-            this.LvlDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LvlDiv.Location = new System.Drawing.Point(459, 42);
-            this.LvlDiv.Name = "LvlDiv";
-            this.LvlDiv.Size = new System.Drawing.Size(240, 3);
-            this.LvlDiv.TabIndex = 122;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(455, 43);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 20);
-            this.label2.TabIndex = 123;
-            this.label2.Text = "Level";
-            // 
-            // LevelBx
-            // 
-            this.LevelBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
-            this.LevelBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.LevelBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LevelBx.ForeColor = System.Drawing.SystemColors.Window;
-            this.LevelBx.Location = new System.Drawing.Point(459, 5);
-            this.LevelBx.Multiline = true;
-            this.LevelBx.Name = "LevelBx";
-            this.LevelBx.Size = new System.Drawing.Size(236, 34);
-            this.LevelBx.TabIndex = 124;
-            // 
-            // AllignDiv
-            // 
-            this.AllignDiv.BackColor = System.Drawing.Color.White;
-            this.AllignDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.AllignDiv.Location = new System.Drawing.Point(210, 97);
-            this.AllignDiv.Name = "AllignDiv";
-            this.AllignDiv.Size = new System.Drawing.Size(115, 3);
-            this.AllignDiv.TabIndex = 127;
-            // 
-            // AllignLbl
-            // 
-            this.AllignLbl.AutoSize = true;
-            this.AllignLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AllignLbl.ForeColor = System.Drawing.SystemColors.Control;
-            this.AllignLbl.Location = new System.Drawing.Point(208, 101);
-            this.AllignLbl.Name = "AllignLbl";
-            this.AllignLbl.Size = new System.Drawing.Size(83, 20);
-            this.AllignLbl.TabIndex = 125;
-            this.AllignLbl.Text = "Allignment";
-            // 
-            // AllignBx
-            // 
-            this.AllignBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
-            this.AllignBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AllignBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AllignBx.ForeColor = System.Drawing.SystemColors.Window;
-            this.AllignBx.Location = new System.Drawing.Point(211, 62);
-            this.AllignBx.Multiline = true;
-            this.AllignBx.Name = "AllignBx";
-            this.AllignBx.Size = new System.Drawing.Size(111, 34);
-            this.AllignBx.TabIndex = 126;
-            // 
-            // RaceDiv
-            // 
-            this.RaceDiv.BackColor = System.Drawing.Color.White;
-            this.RaceDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.RaceDiv.Location = new System.Drawing.Point(330, 97);
-            this.RaceDiv.Name = "RaceDiv";
-            this.RaceDiv.Size = new System.Drawing.Size(83, 3);
-            this.RaceDiv.TabIndex = 130;
-            // 
-            // RaceLbl
-            // 
-            this.RaceLbl.AutoSize = true;
-            this.RaceLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RaceLbl.ForeColor = System.Drawing.SystemColors.Control;
-            this.RaceLbl.Location = new System.Drawing.Point(328, 101);
-            this.RaceLbl.Name = "RaceLbl";
-            this.RaceLbl.Size = new System.Drawing.Size(47, 20);
-            this.RaceLbl.TabIndex = 128;
-            this.RaceLbl.Text = "Race";
-            // 
-            // RaceBx
-            // 
-            this.RaceBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
-            this.RaceBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.RaceBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RaceBx.ForeColor = System.Drawing.SystemColors.Window;
-            this.RaceBx.Location = new System.Drawing.Point(331, 62);
-            this.RaceBx.Multiline = true;
-            this.RaceBx.Name = "RaceBx";
-            this.RaceBx.Size = new System.Drawing.Size(79, 34);
-            this.RaceBx.TabIndex = 129;
+            this.DescBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.DescBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DescBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DescBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.DescBx.Location = new System.Drawing.Point(479, 62);
+            this.DescBx.Multiline = true;
+            this.DescBx.Name = "DescBx";
+            this.DescBx.Size = new System.Drawing.Size(217, 34);
+            this.DescBx.TabIndex = 135;
             // 
             // sexDiv
             // 
@@ -2338,37 +2210,240 @@
             this.SexBx.Size = new System.Drawing.Size(41, 34);
             this.SexBx.TabIndex = 132;
             // 
-            // descDiv
+            // RaceDiv
             // 
-            this.descDiv.BackColor = System.Drawing.Color.White;
-            this.descDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.descDiv.Location = new System.Drawing.Point(478, 97);
-            this.descDiv.Name = "descDiv";
-            this.descDiv.Size = new System.Drawing.Size(221, 3);
-            this.descDiv.TabIndex = 136;
+            this.RaceDiv.BackColor = System.Drawing.Color.White;
+            this.RaceDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.RaceDiv.Location = new System.Drawing.Point(330, 97);
+            this.RaceDiv.Name = "RaceDiv";
+            this.RaceDiv.Size = new System.Drawing.Size(83, 3);
+            this.RaceDiv.TabIndex = 130;
             // 
-            // DescLbl
+            // RaceLbl
             // 
-            this.DescLbl.AutoSize = true;
-            this.DescLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescLbl.ForeColor = System.Drawing.SystemColors.Control;
-            this.DescLbl.Location = new System.Drawing.Point(476, 101);
-            this.DescLbl.Name = "DescLbl";
-            this.DescLbl.Size = new System.Drawing.Size(89, 20);
-            this.DescLbl.TabIndex = 134;
-            this.DescLbl.Text = "Description";
+            this.RaceLbl.AutoSize = true;
+            this.RaceLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RaceLbl.ForeColor = System.Drawing.SystemColors.Control;
+            this.RaceLbl.Location = new System.Drawing.Point(328, 101);
+            this.RaceLbl.Name = "RaceLbl";
+            this.RaceLbl.Size = new System.Drawing.Size(47, 20);
+            this.RaceLbl.TabIndex = 128;
+            this.RaceLbl.Text = "Race";
             // 
-            // DescBx
+            // RaceBx
             // 
-            this.DescBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
-            this.DescBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.DescBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescBx.ForeColor = System.Drawing.SystemColors.Window;
-            this.DescBx.Location = new System.Drawing.Point(479, 62);
-            this.DescBx.Multiline = true;
-            this.DescBx.Name = "DescBx";
-            this.DescBx.Size = new System.Drawing.Size(217, 34);
-            this.DescBx.TabIndex = 135;
+            this.RaceBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.RaceBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.RaceBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RaceBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.RaceBx.Location = new System.Drawing.Point(331, 62);
+            this.RaceBx.Multiline = true;
+            this.RaceBx.Name = "RaceBx";
+            this.RaceBx.Size = new System.Drawing.Size(79, 34);
+            this.RaceBx.TabIndex = 129;
+            // 
+            // AllignDiv
+            // 
+            this.AllignDiv.BackColor = System.Drawing.Color.White;
+            this.AllignDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.AllignDiv.Location = new System.Drawing.Point(210, 97);
+            this.AllignDiv.Name = "AllignDiv";
+            this.AllignDiv.Size = new System.Drawing.Size(115, 3);
+            this.AllignDiv.TabIndex = 127;
+            // 
+            // AllignLbl
+            // 
+            this.AllignLbl.AutoSize = true;
+            this.AllignLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AllignLbl.ForeColor = System.Drawing.SystemColors.Control;
+            this.AllignLbl.Location = new System.Drawing.Point(208, 101);
+            this.AllignLbl.Name = "AllignLbl";
+            this.AllignLbl.Size = new System.Drawing.Size(83, 20);
+            this.AllignLbl.TabIndex = 125;
+            this.AllignLbl.Text = "Allignment";
+            // 
+            // AllignBx
+            // 
+            this.AllignBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.AllignBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AllignBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AllignBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.AllignBx.Location = new System.Drawing.Point(211, 62);
+            this.AllignBx.Multiline = true;
+            this.AllignBx.Name = "AllignBx";
+            this.AllignBx.Size = new System.Drawing.Size(111, 34);
+            this.AllignBx.TabIndex = 126;
+            // 
+            // ClassDiv
+            // 
+            this.ClassDiv.BackColor = System.Drawing.Color.White;
+            this.ClassDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ClassDiv.Location = new System.Drawing.Point(210, 42);
+            this.ClassDiv.Name = "ClassDiv";
+            this.ClassDiv.Size = new System.Drawing.Size(239, 3);
+            this.ClassDiv.TabIndex = 121;
+            // 
+            // LvlDiv
+            // 
+            this.LvlDiv.BackColor = System.Drawing.Color.White;
+            this.LvlDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LvlDiv.Location = new System.Drawing.Point(459, 42);
+            this.LvlDiv.Name = "LvlDiv";
+            this.LvlDiv.Size = new System.Drawing.Size(240, 3);
+            this.LvlDiv.TabIndex = 122;
+            // 
+            // ClassLbl
+            // 
+            this.ClassLbl.AutoSize = true;
+            this.ClassLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ClassLbl.ForeColor = System.Drawing.SystemColors.Control;
+            this.ClassLbl.Location = new System.Drawing.Point(208, 43);
+            this.ClassLbl.Name = "ClassLbl";
+            this.ClassLbl.Size = new System.Drawing.Size(45, 20);
+            this.ClassLbl.TabIndex = 116;
+            this.ClassLbl.Text = "class";
+            // 
+            // NameLbl
+            // 
+            this.NameLbl.AutoSize = true;
+            this.NameLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameLbl.ForeColor = System.Drawing.SystemColors.Control;
+            this.NameLbl.Location = new System.Drawing.Point(141, 44);
+            this.NameLbl.Name = "NameLbl";
+            this.NameLbl.Size = new System.Drawing.Size(51, 20);
+            this.NameLbl.TabIndex = 6;
+            this.NameLbl.Text = "Name";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(141, 97);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 20);
+            this.label1.TabIndex = 119;
+            this.label1.Text = "EXP";
+            // 
+            // ExpBx
+            // 
+            this.ExpBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.ExpBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExpBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.ExpBx.Location = new System.Drawing.Point(8, 67);
+            this.ExpBx.Multiline = true;
+            this.ExpBx.Name = "ExpBx";
+            this.ExpBx.Size = new System.Drawing.Size(190, 39);
+            this.ExpBx.TabIndex = 120;
+            // 
+            // NameBx
+            // 
+            this.NameBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.NameBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.NameBx.Location = new System.Drawing.Point(8, 14);
+            this.NameBx.Multiline = true;
+            this.NameBx.Name = "NameBx";
+            this.NameBx.Size = new System.Drawing.Size(190, 39);
+            this.NameBx.TabIndex = 118;
+            // 
+            // ClassBx
+            // 
+            this.ClassBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.ClassBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ClassBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ClassBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.ClassBx.Location = new System.Drawing.Point(216, 5);
+            this.ClassBx.Multiline = true;
+            this.ClassBx.Name = "ClassBx";
+            this.ClassBx.Size = new System.Drawing.Size(235, 34);
+            this.ClassBx.TabIndex = 117;
+            // 
+            // LevelBx
+            // 
+            this.LevelBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.LevelBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.LevelBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LevelBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.LevelBx.Location = new System.Drawing.Point(459, 5);
+            this.LevelBx.Multiline = true;
+            this.LevelBx.Name = "LevelBx";
+            this.LevelBx.Size = new System.Drawing.Size(236, 34);
+            this.LevelBx.TabIndex = 124;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(455, 43);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 20);
+            this.label2.TabIndex = 123;
+            this.label2.Text = "Level";
+            // 
+            // ACDiv
+            // 
+            this.ACDiv.BackColor = System.Drawing.Color.White;
+            this.ACDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ACDiv.Location = new System.Drawing.Point(9, 40);
+            this.ACDiv.Name = "ACDiv";
+            this.ACDiv.Size = new System.Drawing.Size(45, 3);
+            this.ACDiv.TabIndex = 135;
+            // 
+            // ACBx
+            // 
+            this.ACBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.ACBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ACBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ACBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.ACBx.Location = new System.Drawing.Point(10, 5);
+            this.ACBx.Multiline = true;
+            this.ACBx.Name = "ACBx";
+            this.ACBx.Size = new System.Drawing.Size(41, 34);
+            this.ACBx.TabIndex = 134;
+            // 
+            // InitDv
+            // 
+            this.InitDv.BackColor = System.Drawing.Color.White;
+            this.InitDv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.InitDv.Location = new System.Drawing.Point(9, 40);
+            this.InitDv.Name = "InitDv";
+            this.InitDv.Size = new System.Drawing.Size(45, 3);
+            this.InitDv.TabIndex = 135;
+            // 
+            // InitBx
+            // 
+            this.InitBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.InitBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.InitBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InitBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.InitBx.Location = new System.Drawing.Point(10, 5);
+            this.InitBx.Multiline = true;
+            this.InitBx.Name = "InitBx";
+            this.InitBx.Size = new System.Drawing.Size(41, 34);
+            this.InitBx.TabIndex = 134;
+            // 
+            // SpdDiv
+            // 
+            this.SpdDiv.BackColor = System.Drawing.Color.White;
+            this.SpdDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.SpdDiv.Location = new System.Drawing.Point(9, 40);
+            this.SpdDiv.Name = "SpdDiv";
+            this.SpdDiv.Size = new System.Drawing.Size(45, 3);
+            this.SpdDiv.TabIndex = 135;
+            // 
+            // SpdBx
+            // 
+            this.SpdBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.SpdBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.SpdBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SpdBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.SpdBx.Location = new System.Drawing.Point(10, 5);
+            this.SpdBx.Multiline = true;
+            this.SpdBx.Name = "SpdBx";
+            this.SpdBx.Size = new System.Drawing.Size(41, 34);
+            this.SpdBx.TabIndex = 134;
             // 
             // characterSheet
             // 
@@ -2656,5 +2731,11 @@
         public System.Windows.Forms.Panel sexDiv;
         public System.Windows.Forms.Label SexLbl;
         public System.Windows.Forms.TextBox SexBx;
+        public System.Windows.Forms.Panel SpdDiv;
+        public System.Windows.Forms.TextBox SpdBx;
+        public System.Windows.Forms.Panel InitDv;
+        public System.Windows.Forms.TextBox InitBx;
+        public System.Windows.Forms.Panel ACDiv;
+        public System.Windows.Forms.TextBox ACBx;
     }
 }
