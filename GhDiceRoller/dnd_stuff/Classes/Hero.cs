@@ -38,6 +38,9 @@ namespace dnd.dnd_stuff
         public int initiative;
         public int speed;
         public int armorClass;
+        public string allignment;
+        public string race;
+       
 
         public Hero()
         {
@@ -50,7 +53,7 @@ namespace dnd.dnd_stuff
             this.charisma = 0;
             this.weapons = new List<Weapon>();
             this.armor = new List<Descriptor>();
-            this.items =  new List<Descriptor>();
+            this.items = new List<Descriptor>();
             this.spells = new List<Descriptor>();
             this.proficiencies = new List<Descriptor>();
             this.features = new List<Descriptor>();
@@ -92,6 +95,15 @@ namespace dnd.dnd_stuff
             this.speed = speed;
             this.armorClass = armorClass;
         }
+
+        public string Sex { get;  set; }
+        public string Desc { get;  set; }
+        public bool isProfStrSaves { get;  set; }
+        public bool isProfConSaves { get;  set; }
+        public bool isProfIntSaves { get;  set; }
+        public bool isProfWisSaves { get;  set; }
+        public bool isProfChaSaves { get;  set; }
+        public bool isProfDexSaves { get;  set; }
 
         private int getModifier(int level)
         {

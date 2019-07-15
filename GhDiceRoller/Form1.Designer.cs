@@ -31,6 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DiceRollForm));
             this.ContentPanel = new System.Windows.Forms.Panel();
             this.TopWindowBar = new System.Windows.Forms.Panel();
+            this.STCBtn = new System.Windows.Forms.Button();
+            this.AddTestCharBtn = new System.Windows.Forms.Button();
+            this.HeroLbl = new System.Windows.Forms.Label();
             this.CloseBtn = new System.Windows.Forms.Button();
             this.MaxBtn = new System.Windows.Forms.Button();
             this.MinBtn = new System.Windows.Forms.Button();
@@ -38,6 +41,7 @@
             this.SelectedRollerLbl = new System.Windows.Forms.Label();
             this.RollerLbl = new System.Windows.Forms.Label();
             this.TitleLbl = new System.Windows.Forms.Label();
+            this.HeroSelectLbl = new System.Windows.Forms.Label();
             this.FlowPnl = new System.Windows.Forms.FlowLayoutPanel();
             this.RollSelectPnl = new System.Windows.Forms.Panel();
             this.MixedCheck = new System.Windows.Forms.RadioButton();
@@ -53,6 +57,7 @@
             this.SettingsPnl = new System.Windows.Forms.Panel();
             this.SettingsDiv = new System.Windows.Forms.Panel();
             this.SettingsBtn = new System.Windows.Forms.PictureBox();
+            this.CharactersPnl = new System.Windows.Forms.FlowLayoutPanel();
             this.heroWatch1 = new dnd.dnd_stuff.Controls.HeroWatch();
             this.ContentPanel.SuspendLayout();
             this.TopWindowBar.SuspendLayout();
@@ -73,18 +78,23 @@
             this.ContentPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ContentPanel.Controls.Add(this.FlowPnl);
             this.ContentPanel.Controls.Add(this.TopWindowBar);
-            this.ContentPanel.Controls.Add(this.RollSelectPnl);
             this.ContentPanel.Controls.Add(this.heroWatch1);
+            this.ContentPanel.Controls.Add(this.FlowPnl);
+            this.ContentPanel.Controls.Add(this.RollSelectPnl);
             this.ContentPanel.Location = new System.Drawing.Point(3, 2);
             this.ContentPanel.Name = "ContentPanel";
-            this.ContentPanel.Size = new System.Drawing.Size(833, 305);
+            this.ContentPanel.Size = new System.Drawing.Size(834, 330);
             this.ContentPanel.TabIndex = 5;
             // 
             // TopWindowBar
             // 
+            this.TopWindowBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TopWindowBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(35)))), ((int)(((byte)(37)))));
+            this.TopWindowBar.Controls.Add(this.STCBtn);
+            this.TopWindowBar.Controls.Add(this.AddTestCharBtn);
+            this.TopWindowBar.Controls.Add(this.HeroLbl);
             this.TopWindowBar.Controls.Add(this.CloseBtn);
             this.TopWindowBar.Controls.Add(this.MaxBtn);
             this.TopWindowBar.Controls.Add(this.MinBtn);
@@ -92,12 +102,43 @@
             this.TopWindowBar.Controls.Add(this.SelectedRollerLbl);
             this.TopWindowBar.Controls.Add(this.RollerLbl);
             this.TopWindowBar.Controls.Add(this.TitleLbl);
-            this.TopWindowBar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TopWindowBar.Controls.Add(this.HeroSelectLbl);
             this.TopWindowBar.Location = new System.Drawing.Point(0, 0);
             this.TopWindowBar.Name = "TopWindowBar";
             this.TopWindowBar.Size = new System.Drawing.Size(833, 39);
             this.TopWindowBar.TabIndex = 7;
             this.TopWindowBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TopWindowBar_MouseDown);
+            // 
+            // STCBtn
+            // 
+            this.STCBtn.Location = new System.Drawing.Point(612, 10);
+            this.STCBtn.Name = "STCBtn";
+            this.STCBtn.Size = new System.Drawing.Size(75, 23);
+            this.STCBtn.TabIndex = 18;
+            this.STCBtn.Text = "STC";
+            this.STCBtn.UseVisualStyleBackColor = true;
+            this.STCBtn.Click += new System.EventHandler(this.STCBtn_Click);
+            // 
+            // AddTestCharBtn
+            // 
+            this.AddTestCharBtn.Location = new System.Drawing.Point(531, 9);
+            this.AddTestCharBtn.Name = "AddTestCharBtn";
+            this.AddTestCharBtn.Size = new System.Drawing.Size(75, 23);
+            this.AddTestCharBtn.TabIndex = 17;
+            this.AddTestCharBtn.Text = "ATC";
+            this.AddTestCharBtn.UseVisualStyleBackColor = true;
+            this.AddTestCharBtn.Click += new System.EventHandler(this.AddTestCharBtn_Click);
+            // 
+            // HeroLbl
+            // 
+            this.HeroLbl.AutoSize = true;
+            this.HeroLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HeroLbl.ForeColor = System.Drawing.SystemColors.Control;
+            this.HeroLbl.Location = new System.Drawing.Point(340, 10);
+            this.HeroLbl.Name = "HeroLbl";
+            this.HeroLbl.Size = new System.Drawing.Size(45, 18);
+            this.HeroLbl.TabIndex = 15;
+            this.HeroLbl.Text = "Hero:";
             // 
             // CloseBtn
             // 
@@ -159,7 +200,7 @@
             this.VolumeBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.VolumeBtn.FlatAppearance.BorderSize = 0;
             this.VolumeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.VolumeBtn.Location = new System.Drawing.Point(175, 4);
+            this.VolumeBtn.Location = new System.Drawing.Point(105, 5);
             this.VolumeBtn.Name = "VolumeBtn";
             this.VolumeBtn.Size = new System.Drawing.Size(30, 30);
             this.VolumeBtn.TabIndex = 14;
@@ -170,7 +211,7 @@
             // 
             this.SelectedRollerLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SelectedRollerLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(153)))), ((int)(((byte)(28)))));
-            this.SelectedRollerLbl.Location = new System.Drawing.Point(305, 12);
+            this.SelectedRollerLbl.Location = new System.Drawing.Point(200, 10);
             this.SelectedRollerLbl.Name = "SelectedRollerLbl";
             this.SelectedRollerLbl.Size = new System.Drawing.Size(161, 24);
             this.SelectedRollerLbl.TabIndex = 13;
@@ -184,7 +225,7 @@
             this.RollerLbl.AutoSize = true;
             this.RollerLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RollerLbl.ForeColor = System.Drawing.SystemColors.Control;
-            this.RollerLbl.Location = new System.Drawing.Point(252, 12);
+            this.RollerLbl.Location = new System.Drawing.Point(150, 10);
             this.RollerLbl.Name = "RollerLbl";
             this.RollerLbl.Size = new System.Drawing.Size(55, 18);
             this.RollerLbl.TabIndex = 12;
@@ -195,12 +236,25 @@
             this.TitleLbl.AutoSize = true;
             this.TitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLbl.ForeColor = System.Drawing.SystemColors.Control;
-            this.TitleLbl.Location = new System.Drawing.Point(8, 9);
+            this.TitleLbl.Location = new System.Drawing.Point(10, 10);
             this.TitleLbl.Name = "TitleLbl";
             this.TitleLbl.Size = new System.Drawing.Size(73, 18);
             this.TitleLbl.TabIndex = 3;
             this.TitleLbl.Text = "Die Roller";
             this.TitleLbl.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TopWindowBar_MouseDown);
+            // 
+            // HeroSelectLbl
+            // 
+            this.HeroSelectLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HeroSelectLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(153)))), ((int)(((byte)(28)))));
+            this.HeroSelectLbl.Location = new System.Drawing.Point(384, 10);
+            this.HeroSelectLbl.Name = "HeroSelectLbl";
+            this.HeroSelectLbl.Size = new System.Drawing.Size(118, 24);
+            this.HeroSelectLbl.TabIndex = 16;
+            this.HeroSelectLbl.Text = "Not Selected ▼";
+            this.HeroSelectLbl.Click += new System.EventHandler(this.HeroSelectLbl_Click);
+            this.HeroSelectLbl.MouseEnter += new System.EventHandler(this.SelectedRollerLbl_MouseEnter);
+            this.HeroSelectLbl.MouseLeave += new System.EventHandler(this.SelectedRollerLbl_MouseLeave);
             // 
             // FlowPnl
             // 
@@ -214,7 +268,7 @@
             this.FlowPnl.Margin = new System.Windows.Forms.Padding(1);
             this.FlowPnl.Name = "FlowPnl";
             this.FlowPnl.Padding = new System.Windows.Forms.Padding(10);
-            this.FlowPnl.Size = new System.Drawing.Size(753, 267);
+            this.FlowPnl.Size = new System.Drawing.Size(754, 281);
             this.FlowPnl.TabIndex = 5;
             // 
             // RollSelectPnl
@@ -224,7 +278,7 @@
             this.RollSelectPnl.Controls.Add(this.MixedCheck);
             this.RollSelectPnl.Controls.Add(this.PlasticChk);
             this.RollSelectPnl.Controls.Add(this.MetalChk);
-            this.RollSelectPnl.Location = new System.Drawing.Point(308, 45);
+            this.RollSelectPnl.Location = new System.Drawing.Point(195, 45);
             this.RollSelectPnl.Name = "RollSelectPnl";
             this.RollSelectPnl.Size = new System.Drawing.Size(112, 100);
             this.RollSelectPnl.TabIndex = 0;
@@ -281,6 +335,7 @@
             this.LeftUpPnl.Size = new System.Drawing.Size(80, 85);
             this.LeftUpPnl.TabIndex = 8;
             this.LeftUpPnl.Click += new System.EventHandler(this.LeftUpContent_Click);
+            this.LeftUpPnl.Paint += new System.Windows.Forms.PaintEventHandler(this.LeftUpPnl_Paint);
             // 
             // LeftUpContent
             // 
@@ -350,7 +405,7 @@
             this.LeftBar.Controls.Add(this.LeftUpPnl);
             this.LeftBar.Location = new System.Drawing.Point(3, 41);
             this.LeftBar.Name = "LeftBar";
-            this.LeftBar.Size = new System.Drawing.Size(81, 266);
+            this.LeftBar.Size = new System.Drawing.Size(81, 601);
             this.LeftBar.TabIndex = 1;
             // 
             // SettingsPnl
@@ -360,7 +415,7 @@
             this.SettingsPnl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(35)))), ((int)(((byte)(37)))));
             this.SettingsPnl.Controls.Add(this.SettingsDiv);
             this.SettingsPnl.Controls.Add(this.SettingsBtn);
-            this.SettingsPnl.Location = new System.Drawing.Point(5, 218);
+            this.SettingsPnl.Location = new System.Drawing.Point(5, 553);
             this.SettingsPnl.Name = "SettingsPnl";
             this.SettingsPnl.Size = new System.Drawing.Size(71, 43);
             this.SettingsPnl.TabIndex = 9;
@@ -389,27 +444,47 @@
             this.SettingsBtn.TabIndex = 2;
             this.SettingsBtn.TabStop = false;
             // 
+            // CharactersPnl
+            // 
+            this.CharactersPnl.AutoSize = true;
+            this.CharactersPnl.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.CharactersPnl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.CharactersPnl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.CharactersPnl.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.CharactersPnl.Location = new System.Drawing.Point(385, 45);
+            this.CharactersPnl.Name = "CharactersPnl";
+            this.CharactersPnl.Size = new System.Drawing.Size(2, 2);
+            this.CharactersPnl.TabIndex = 17;
+            this.CharactersPnl.Visible = false;
+            this.CharactersPnl.WrapContents = false;
+            // 
             // heroWatch1
             // 
+            this.heroWatch1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.heroWatch1.AutoSize = true;
-            this.heroWatch1.Location = new System.Drawing.Point(82, 39);
+            this.heroWatch1.Location = new System.Drawing.Point(86, 39);
             this.heroWatch1.Name = "heroWatch1";
-            this.heroWatch1.Size = new System.Drawing.Size(753, 267);
+            this.heroWatch1.Size = new System.Drawing.Size(803, 279);
             this.heroWatch1.TabIndex = 8;
             this.heroWatch1.Visible = false;
+            this.heroWatch1.Load += new System.EventHandler(this.HeroWatch1_Load);
             // 
             // DiceRollForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(838, 310);
+            this.ClientSize = new System.Drawing.Size(840, 335);
+            this.Controls.Add(this.CharactersPnl);
             this.Controls.Add(this.LeftBar);
             this.Controls.Add(this.ContentPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(400, 304);
+            this.MaximumSize = new System.Drawing.Size(853, 9000);
+            this.MinimumSize = new System.Drawing.Size(840, 335);
             this.Name = "DiceRollForm";
             this.Text = "D&D Companion";
             this.Load += new System.EventHandler(this.DiceRollForm_Load);
@@ -430,13 +505,13 @@
             this.SettingsPnl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SettingsBtn)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Panel ContentPanel;
-        private System.Windows.Forms.Panel TopWindowBar;
         private System.Windows.Forms.Label SelectedRollerLbl;
         private System.Windows.Forms.Label RollerLbl;
         private System.Windows.Forms.Button CloseBtn;
@@ -459,7 +534,13 @@
         private System.Windows.Forms.Panel SettingsPnl;
         private System.Windows.Forms.PictureBox SettingsBtn;
         private System.Windows.Forms.Panel SettingsDiv;
-        private dnd_stuff.Controls.HeroWatch heroWatch1;
+        private System.Windows.Forms.Label HeroLbl;
+        private System.Windows.Forms.Button AddTestCharBtn;
+        public System.Windows.Forms.FlowLayoutPanel CharactersPnl;
+        private System.Windows.Forms.Button STCBtn;
+        public System.Windows.Forms.Panel TopWindowBar;
+        public System.Windows.Forms.Label HeroSelectLbl;
+        public dnd_stuff.Controls.HeroWatch heroWatch1;
     }
 }
 

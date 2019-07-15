@@ -17,6 +17,19 @@ namespace dnd.Controls
         {
             InitializeComponent();
             this.hero = hero;
+
+
+        }
+
+
+        private void CharacterSheet_Load(object sender, EventArgs e)
+        {
+            NameBx.Text = hero.name;
+        }
+
+        private void CharacterInfoPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
