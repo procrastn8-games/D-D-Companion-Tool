@@ -74,22 +74,22 @@ namespace dnd.dnd_stuff.Classes
                 {
                     name = sheet.Wep1WepBx.Text,
                     DmgDie = sheet.Wep1DmgBx.Text,
-                    DmgType = sheet.Wep1TypeBx,
-                    Note = sheet.Wep1NotesBx
+                    DmgType = sheet.Wep1TypeBx.Text,
+                    Note = sheet.Wep1NotesBx.Text
                 };
                 Weapon wep2 = new Weapon
                 {
                     name = sheet.Wep2WepBx.Text,
                     DmgDie = sheet.Wep2DmgBx.Text,
-                    DmgType = sheet.Wep2TypeBx,
-                    Note = sheet.Wep2NotesBx
+                    DmgType = sheet.Wep2TypeBx.Text,
+                    Note = sheet.Wep2NotesBx.Text
                 };
                 Weapon wep3 = new Weapon
                 {
                     name = sheet.Wep3WepBx.Text,
                     DmgDie = sheet.Wep3DmgBx.Text,
-                    DmgType = sheet.Wep3TypeBx,
-                    Note = sheet.Wep3NotesBx
+                    DmgType = sheet.Wep3TypeBx.Text,
+                    Note = sheet.Wep3NotesBx.Text
                 };
                 h.weapons = new List<Weapon> { wep1, wep2, wep3 };
                 //get Ammo

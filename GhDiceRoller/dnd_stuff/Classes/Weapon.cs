@@ -14,9 +14,9 @@ namespace dnd.dnd_stuff.Classes
         public int modifier;
         public string icoPath;
 
-        public MaskedTextBox DmgType { get; internal set; }
-        public string DmgDie { get; internal set; }
-        public TextBox Note { get; internal set; }
+        public string DmgType { get; set; }
+        public string DmgDie { get; set; }
+        public string Note { get; set; }
         //check strength vs dex and take higher
 
         //roll a d20 
