@@ -1,13 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using dnd.dnd_stuff.Classes;
 
 namespace dnd.Controls
 {
@@ -51,41 +43,118 @@ namespace dnd.Controls
             SpdBx.Text = hero.speed.ToString();
             HPBx.Text = hero.remainingHp.ToString();
             HitDiceBx.Text = hero.HitDice;
-            Succ1Die.Checked = hero.GoodSaves[0];
-            Succ2Die.Checked = hero.GoodSaves[1];
-            Succ3Die.Checked = hero.GoodSaves[2];
+            try
+            {
+                Succ1Die.Checked = hero.GoodSaves[0];
+                Succ2Die.Checked = hero.GoodSaves[1];
+                Succ3Die.Checked = hero.GoodSaves[2];
+            }
+            catch
+            {
+                Succ1Die.Checked = false;
+                Succ2Die.Checked = false;
+                Succ3Die.Checked = false;
+            }
             ///
-            Fail1Die.Checked = hero.FailSaves[0];
-            Fail2Die.Checked = hero.FailSaves[1];
-            Fail3Die.Checked = hero.FailSaves[2];
+            try
+            {
+                Fail1Die.Checked = hero.FailSaves[0];
+                Fail2Die.Checked = hero.FailSaves[1];
+                Fail3Die.Checked = hero.FailSaves[2];
+            }
+            catch
+            {
+                Fail1Die.Checked = false;
+                Fail2Die.Checked = false;
+                Fail3Die.Checked = false;
+            }
+
+
             //get proffs and traits and langs and items
             ProfBx.Text = hero.ProfAbilField;
             LangBx.Text = hero.Langs;
             ItemBx.Text = hero.ItemsFld;
             //get weapons
-            Wep1WepBx.Text = hero.weapons[0].name;
-            Wep1DmgBx.Text = hero.weapons[0].DmgDie;
-            Wep1TypeBx.Text = hero.weapons[0].DmgType;
-            Wep1NotesBx.Text = hero.weapons[0].Note;
+            try
+            {
+                Wep1WepBx.Text = hero.weapons[0].name;
+                Wep1DmgBx.Text = hero.weapons[0].DmgDie;
+                Wep1TypeBx.Text = hero.weapons[0].DmgType;
+                Wep1NotesBx.Text = hero.weapons[0].Note;
+            }
+            catch
+            {
+                Wep1WepBx.Text = "";
+                Wep1DmgBx.Text ="";
+                Wep1TypeBx.Text = "";
+                Wep1NotesBx.Text = "";
+            }
+
+
             //2
-            Wep2WepBx.Text = hero.weapons[1].name;
-            Wep2DmgBx.Text = hero.weapons[1].DmgDie;
-            Wep2TypeBx.Text = hero.weapons[1].DmgType;
-            Wep2NotesBx.Text = hero.weapons[1].Note;
+            try
+            {
+                Wep2WepBx.Text = hero.weapons[1].name;
+                Wep2DmgBx.Text = hero.weapons[1].DmgDie;
+                Wep2TypeBx.Text = hero.weapons[1].DmgType;
+                Wep2NotesBx.Text = hero.weapons[1].Note;
+            }
+            catch
+            {
+                Wep2WepBx.Text = "";
+                Wep2DmgBx.Text = "";
+                Wep2TypeBx.Text = "";
+                Wep2NotesBx.Text = "";
+            }
             //3
-            Wep3WepBx.Text = hero.weapons[2].name;
-            Wep3DmgBx.Text = hero.weapons[2].DmgDie;
-            Wep3TypeBx.Text = hero.weapons[2].DmgType;
-            Wep3NotesBx.Text = hero.weapons[2].Note;
+            try
+            {
+                Wep3WepBx.Text = hero.weapons[2].name;
+                Wep3DmgBx.Text = hero.weapons[2].DmgDie;
+                Wep3TypeBx.Text = hero.weapons[2].DmgType;
+                Wep3NotesBx.Text = hero.weapons[2].Note;
+            }
+            catch
+            {
+                Wep3WepBx.Text = "";
+                Wep3DmgBx.Text = "";
+                Wep3TypeBx.Text = "";
+                Wep3NotesBx.Text = "";
+            }
             //get ammo
-            Ammo1AmmoBx.Text = hero.Ammo[0].name;
-            Ammo1AmtBx.Text = hero.Ammo[0].Amt;
+            try
+            {
+                Ammo1AmmoBx.Text = hero.Ammo[0].name;
+                Ammo1AmtBx.Text = hero.Ammo[0].Amt;
+            }
+            catch
+            {
+                Ammo1AmmoBx.Text = "";
+                Ammo1AmtBx.Text = "";
+            }
+
             //1
-            Ammo2AmmoBx.Text = hero.Ammo[1].name;
-            Ammo2AmtBx.Text = hero.Ammo[1].Amt;
+            try
+            {
+                Ammo2AmmoBx.Text = hero.Ammo[1].name;
+                Ammo2AmtBx.Text = hero.Ammo[1].Amt;
+            }
+            catch
+            {
+                Ammo2AmmoBx.Text = "";
+                Ammo2AmtBx.Text = "";
+            }
             //2
-            Ammo3AmmoBx.Text = hero.Ammo[2].name;
-            Ammo3AmtBx.Text = hero.Ammo[2].Amt;
+            try
+            {
+                Ammo3AmmoBx.Text = hero.Ammo[2].name;
+                Ammo3AmtBx.Text = hero.Ammo[2].Amt;
+            }
+            catch
+            {
+                Ammo3AmmoBx.Text = "";
+                Ammo3AmtBx.Text = "";
+            }
             //get treasure and other equips
             TresBx.Text = hero.treasure;
             OtherEquipBx.Text = hero.Equipment;

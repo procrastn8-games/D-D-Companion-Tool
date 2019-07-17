@@ -269,14 +269,22 @@ namespace dnd
             string AppdataRoaming = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             string path = AppdataRoaming + @"\ProcrastN8\Heros\";
 
-            foreach (var file in Directory.GetFiles(path))
+            try
             {
-                if (file.Contains(".xml")){
-                    var c = new dnd_stuff.Controls.CharacterLine();                 
-                    c.CharLbl.Text = file.Replace(path, "").Replace(".xml","");
-                    c.CharLbl.Click += new System.EventHandler(this.HeroSwap);
-                    this.CharactersPnl.Controls.Add(c);
+                foreach (var file in Directory.GetFiles(path))
+                {
+                    if (file.Contains(".xml"))
+                    {
+                        var c = new dnd_stuff.Controls.CharacterLine();
+                        c.CharLbl.Text = file.Replace(path, "").Replace(".xml", "");
+                        c.CharLbl.Click += new System.EventHandler(this.HeroSwap);
+                        this.CharactersPnl.Controls.Add(c);
+                    }
                 }
+            }
+            catch
+            {
+                Directory.CreateDirectory(path);
             }
         }
 
