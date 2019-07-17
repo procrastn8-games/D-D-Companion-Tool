@@ -260,14 +260,32 @@ namespace dnd
             {
                 FlowPnl.Controls.Add(new DieRoller(i));
             }
+            //load all characters
+            LoadSavedCharacters();
+        }
+
+        private void LoadSavedCharacters()
+        {
+            string AppdataRoaming = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            string path = AppdataRoaming + @"\ProcrastN8\Heros\";
+
+            foreach (var file in Directory.GetFiles(path))
+            {
+                if (file.Contains(".xml")){
+                    var c = new dnd_stuff.Controls.CharacterLine();                 
+                    c.CharLbl.Text = file.Replace(path, "").Replace(".xml","");
+                    c.CharLbl.Click += new System.EventHandler(this.HeroSwap);
+                    this.CharactersPnl.Controls.Add(c);
+                }
+            }
         }
 
 
 
-        /// <summary>
-        ///
-        /// </summary>
-        private void HeroSwap(object sender, EventArgs e)
+    /// <summary>
+    ///
+    /// </summary>
+    private void HeroSwap(object sender, EventArgs e)
         {
             HeroSelectLbl.Text = ((Label)sender).Text + " ▼";
             this.CharactersPnl.Visible = !this.CharactersPnl.Visible;
@@ -286,12 +304,25 @@ namespace dnd
 
         }
 
-        private void AddTestCharBtn_Click(object sender, EventArgs e)
+        private void AddCharBtn_Click(object sender, EventArgs e)
         {
             var c = new dnd_stuff.Controls.CharacterLine();
             c.CharLbl.Click += new System.EventHandler(this.HeroSwap);
-            c.CharLbl.Text = "Jays test hero";
-            this.CharactersPnl.Controls.Add(c);
+            c.CharLbl.Text = "New Character";
+            bool hasNew = false;
+            foreach (var con in CharactersPnl.Controls)
+            {
+                var cl = (dnd_stuff.Controls.CharacterLine)con;
+                var s  = cl.CharLbl.Text;
+                if (s.Equals("New Character"))
+                {
+                    hasNew = true;
+                }
+            }
+            if (!hasNew)
+            {
+                this.CharactersPnl.Controls.Add(c);
+            }
         }
 
         private void STCBtn_Click(object sender, EventArgs e)

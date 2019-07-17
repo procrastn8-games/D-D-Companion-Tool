@@ -21,7 +21,8 @@ namespace dnd.dnd_stuff.Controls
         private void Label1_Click(object sender, EventArgs e)
         {
             this.HeroContentPanel.Controls.Clear();
-            this.HeroContentPanel.Controls.Add(new dnd.Controls.characterSheet(new Hero() { name = "deku" }));
+            Hero myHero = Logic.GetHero();
+            this.HeroContentPanel.Controls.Add(new dnd.Controls.characterSheet(myHero));
         }
 
         private void HeroWatch_Load(object sender, EventArgs e)

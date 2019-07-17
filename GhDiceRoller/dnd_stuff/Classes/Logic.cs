@@ -156,10 +156,45 @@ namespace dnd.dnd_stuff.Classes
                 MessageBox.Show(ex.Message);
             }
         }
+
+        public static T DeSerializeObject<T>(string fileName)
+        {
+            if (string.IsNullOrEmpty(fileName)) { return default(T); }
+
+            T objectOut = default(T);
+
+            try
+            {
+                XmlDocument xmlDocument = new XmlDocument();
+                xmlDocument.Load(fileName);
+                string xmlString = xmlDocument.OuterXml;
+
+                using (StringReader read = new StringReader(xmlString))
+                {
+                    Type outType = typeof(T);
+
+                    XmlSerializer serializer = new XmlSerializer(outType);
+                    using (XmlReader reader = new XmlTextReader(read))
+                    {
+                        objectOut = (T)serializer.Deserialize(reader);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                //Log exception here
+            }
+
+            return objectOut;
+        }
         public static Hero GetHero()
         {
             Hero h = new Hero();
-            h.name = getMain().HeroSelectLbl.Text;
+            string path = AppdataRoaming + @"\ProcrastN8\Heros\" + getMain().HeroSelectLbl.Text.Replace(" ▼", "") + ".xml";
+            if (File.Exists(path))
+            {
+                h = DeSerializeObject<Hero>(path);
+            }
             return h;
         }
     }

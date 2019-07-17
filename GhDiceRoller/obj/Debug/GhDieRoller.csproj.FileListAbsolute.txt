@@ -131,7 +131,6 @@ C:\Users\TheJ\source\repos\D-D-Companion-Tool\GhDiceRoller\bin\Debug\Resources\V
 C:\Users\TheJ\source\repos\D-D-Companion-Tool\GhDiceRoller\bin\Debug\GhDiceRoller.exe.config
 C:\Users\TheJ\source\repos\D-D-Companion-Tool\GhDiceRoller\bin\Debug\GhDiceRoller.exe
 C:\Users\TheJ\source\repos\D-D-Companion-Tool\GhDiceRoller\bin\Debug\GhDiceRoller.pdb
-C:\Users\TheJ\source\repos\D-D-Companion-Tool\GhDiceRoller\obj\Debug\GhDieRoller.csprojAssemblyReference.cache
 C:\Users\TheJ\source\repos\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.dnd_stuff.Cards.StatCard.resources
 C:\Users\TheJ\source\repos\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.dnd_stuff.Cards.CheckCard.resources
 C:\Users\TheJ\source\repos\D-D-Companion-Tool\GhDiceRoller\obj\Debug\dnd.dnd_stuff.Cards.DescriptorsControl.resources

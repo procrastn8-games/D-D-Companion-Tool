@@ -32,7 +32,7 @@
             this.ContentPanel = new System.Windows.Forms.Panel();
             this.TopWindowBar = new System.Windows.Forms.Panel();
             this.STCBtn = new System.Windows.Forms.Button();
-            this.AddTestCharBtn = new System.Windows.Forms.Button();
+            this.AddCharBtn = new System.Windows.Forms.Button();
             this.HeroLbl = new System.Windows.Forms.Label();
             this.CloseBtn = new System.Windows.Forms.Button();
             this.MaxBtn = new System.Windows.Forms.Button();
@@ -42,6 +42,7 @@
             this.RollerLbl = new System.Windows.Forms.Label();
             this.TitleLbl = new System.Windows.Forms.Label();
             this.HeroSelectLbl = new System.Windows.Forms.Label();
+            this.heroWatch1 = new dnd.dnd_stuff.Controls.HeroWatch();
             this.FlowPnl = new System.Windows.Forms.FlowLayoutPanel();
             this.RollSelectPnl = new System.Windows.Forms.Panel();
             this.MixedCheck = new System.Windows.Forms.RadioButton();
@@ -58,7 +59,6 @@
             this.SettingsDiv = new System.Windows.Forms.Panel();
             this.SettingsBtn = new System.Windows.Forms.PictureBox();
             this.CharactersPnl = new System.Windows.Forms.FlowLayoutPanel();
-            this.heroWatch1 = new dnd.dnd_stuff.Controls.HeroWatch();
             this.ContentPanel.SuspendLayout();
             this.TopWindowBar.SuspendLayout();
             this.RollSelectPnl.SuspendLayout();
@@ -92,8 +92,8 @@
             this.TopWindowBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TopWindowBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(35)))), ((int)(((byte)(37)))));
+            this.TopWindowBar.Controls.Add(this.AddCharBtn);
             this.TopWindowBar.Controls.Add(this.STCBtn);
-            this.TopWindowBar.Controls.Add(this.AddTestCharBtn);
             this.TopWindowBar.Controls.Add(this.HeroLbl);
             this.TopWindowBar.Controls.Add(this.CloseBtn);
             this.TopWindowBar.Controls.Add(this.MaxBtn);
@@ -111,23 +111,27 @@
             // 
             // STCBtn
             // 
-            this.STCBtn.Location = new System.Drawing.Point(612, 10);
+            this.STCBtn.Location = new System.Drawing.Point(598, 10);
             this.STCBtn.Name = "STCBtn";
             this.STCBtn.Size = new System.Drawing.Size(75, 23);
             this.STCBtn.TabIndex = 18;
-            this.STCBtn.Text = "STC";
+            this.STCBtn.Text = "TestSave";
             this.STCBtn.UseVisualStyleBackColor = true;
             this.STCBtn.Click += new System.EventHandler(this.STCBtn_Click);
             // 
-            // AddTestCharBtn
+            // AddCharBtn
             // 
-            this.AddTestCharBtn.Location = new System.Drawing.Point(531, 9);
-            this.AddTestCharBtn.Name = "AddTestCharBtn";
-            this.AddTestCharBtn.Size = new System.Drawing.Size(75, 23);
-            this.AddTestCharBtn.TabIndex = 17;
-            this.AddTestCharBtn.Text = "ATC";
-            this.AddTestCharBtn.UseVisualStyleBackColor = true;
-            this.AddTestCharBtn.Click += new System.EventHandler(this.AddTestCharBtn_Click);
+            this.AddCharBtn.FlatAppearance.BorderSize = 0;
+            this.AddCharBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddCharBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddCharBtn.ForeColor = System.Drawing.Color.Lime;
+            this.AddCharBtn.Location = new System.Drawing.Point(494, -6);
+            this.AddCharBtn.Name = "AddCharBtn";
+            this.AddCharBtn.Size = new System.Drawing.Size(33, 42);
+            this.AddCharBtn.TabIndex = 17;
+            this.AddCharBtn.Text = "+";
+            this.AddCharBtn.UseVisualStyleBackColor = true;
+            this.AddCharBtn.Click += new System.EventHandler(this.AddCharBtn_Click);
             // 
             // HeroLbl
             // 
@@ -256,6 +260,19 @@
             this.HeroSelectLbl.MouseEnter += new System.EventHandler(this.SelectedRollerLbl_MouseEnter);
             this.HeroSelectLbl.MouseLeave += new System.EventHandler(this.SelectedRollerLbl_MouseLeave);
             // 
+            // heroWatch1
+            // 
+            this.heroWatch1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.heroWatch1.AutoSize = true;
+            this.heroWatch1.Location = new System.Drawing.Point(86, 39);
+            this.heroWatch1.Name = "heroWatch1";
+            this.heroWatch1.Size = new System.Drawing.Size(803, 279);
+            this.heroWatch1.TabIndex = 8;
+            this.heroWatch1.Visible = false;
+            this.heroWatch1.Load += new System.EventHandler(this.HeroWatch1_Load);
+            // 
             // FlowPnl
             // 
             this.FlowPnl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -335,8 +352,6 @@
             this.LeftUpPnl.Size = new System.Drawing.Size(80, 85);
             this.LeftUpPnl.TabIndex = 8;
             this.LeftUpPnl.Click += new System.EventHandler(this.LeftUpContent_Click);
-            this.LeftUpPnl.Paint += new System.Windows.Forms.PaintEventHandler(this.LeftUpPnl_Paint);
-            // 
             // LeftUpContent
             // 
             this.LeftUpContent.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -458,19 +473,6 @@
             this.CharactersPnl.Visible = false;
             this.CharactersPnl.WrapContents = false;
             // 
-            // heroWatch1
-            // 
-            this.heroWatch1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.heroWatch1.AutoSize = true;
-            this.heroWatch1.Location = new System.Drawing.Point(86, 39);
-            this.heroWatch1.Name = "heroWatch1";
-            this.heroWatch1.Size = new System.Drawing.Size(803, 279);
-            this.heroWatch1.TabIndex = 8;
-            this.heroWatch1.Visible = false;
-            this.heroWatch1.Load += new System.EventHandler(this.HeroWatch1_Load);
-            // 
             // DiceRollForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -535,7 +537,7 @@
         private System.Windows.Forms.PictureBox SettingsBtn;
         private System.Windows.Forms.Panel SettingsDiv;
         private System.Windows.Forms.Label HeroLbl;
-        private System.Windows.Forms.Button AddTestCharBtn;
+        private System.Windows.Forms.Button AddCharBtn;
         public System.Windows.Forms.FlowLayoutPanel CharactersPnl;
         private System.Windows.Forms.Button STCBtn;
         public System.Windows.Forms.Panel TopWindowBar;

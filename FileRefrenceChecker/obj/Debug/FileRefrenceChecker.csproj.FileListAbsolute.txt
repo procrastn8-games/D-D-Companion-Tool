@@ -18,3 +18,12 @@ C:\Users\s292155\Documents\visual studio 2015\Projects\D-D-Companion-Tool\FileRe
 C:\Users\s292155\Documents\visual studio 2015\Projects\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.csproj.CoreCompileInputs.cache
 C:\Users\s292155\Documents\visual studio 2015\Projects\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.exe
 C:\Users\s292155\Documents\visual studio 2015\Projects\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.pdb
+C:\Users\TheJ\source\repos\D-D-Companion-Tool\FileRefrenceChecker\bin\Debug\FileRefrenceChecker.exe.config
+C:\Users\TheJ\source\repos\D-D-Companion-Tool\FileRefrenceChecker\bin\Debug\FileRefrenceChecker.exe
+C:\Users\TheJ\source\repos\D-D-Companion-Tool\FileRefrenceChecker\bin\Debug\FileRefrenceChecker.pdb
+C:\Users\TheJ\source\repos\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.Form1.resources
+C:\Users\TheJ\source\repos\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.Properties.Resources.resources
+C:\Users\TheJ\source\repos\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.csproj.GenerateResource.cache
+C:\Users\TheJ\source\repos\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.csproj.CoreCompileInputs.cache
+C:\Users\TheJ\source\repos\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.exe
+C:\Users\TheJ\source\repos\D-D-Companion-Tool\FileRefrenceChecker\obj\Debug\FileRefrenceChecker.pdb
