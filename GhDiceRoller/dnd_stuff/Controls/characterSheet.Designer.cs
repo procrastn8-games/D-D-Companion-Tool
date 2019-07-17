@@ -103,7 +103,6 @@
             this.PersSkillStat = new System.Windows.Forms.Label();
             this.STRBigPnl = new System.Windows.Forms.Panel();
             this.STRBigLbl = new System.Windows.Forms.Label();
-            this.STRStatLbl = new System.Windows.Forms.Label();
             this.STRModLbl = new System.Windows.Forms.Label();
             this.BIGStatPnl = new System.Windows.Forms.FlowLayoutPanel();
             this.DEXBigPnl = new System.Windows.Forms.Panel();
@@ -142,10 +141,16 @@
             this.HitDiceBx = new System.Windows.Forms.TextBox();
             this.HitDiceLbl = new System.Windows.Forms.Label();
             this.SpdPnl = new System.Windows.Forms.Panel();
+            this.SpdDiv = new System.Windows.Forms.Panel();
+            this.SpdBx = new System.Windows.Forms.TextBox();
             this.SpdLbl = new System.Windows.Forms.Label();
             this.InitPnl = new System.Windows.Forms.Panel();
+            this.InitDv = new System.Windows.Forms.Panel();
+            this.InitBx = new System.Windows.Forms.TextBox();
             this.InitLbl = new System.Windows.Forms.Label();
             this.ACPnl = new System.Windows.Forms.Panel();
+            this.ACDiv = new System.Windows.Forms.Panel();
+            this.ACBx = new System.Windows.Forms.TextBox();
             this.AcLbl = new System.Windows.Forms.Label();
             this.ProfBx = new System.Windows.Forms.RichTextBox();
             this.ProfBxLbl = new System.Windows.Forms.Label();
@@ -223,12 +228,8 @@
             this.ClassBx = new System.Windows.Forms.TextBox();
             this.LevelBx = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.ACDiv = new System.Windows.Forms.Panel();
-            this.ACBx = new System.Windows.Forms.TextBox();
-            this.InitDv = new System.Windows.Forms.Panel();
-            this.InitBx = new System.Windows.Forms.TextBox();
-            this.SpdDiv = new System.Windows.Forms.Panel();
-            this.SpdBx = new System.Windows.Forms.TextBox();
+            this.StrDiv = new System.Windows.Forms.Panel();
+            this.STRStatLbl = new System.Windows.Forms.TextBox();
             this.SavesPnl.SuspendLayout();
             this.SkillPnl.SuspendLayout();
             this.STRBigPnl.SuspendLayout();
@@ -1083,8 +1084,9 @@
             // STRBigPnl
             // 
             this.STRBigPnl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.STRBigPnl.Controls.Add(this.STRBigLbl);
             this.STRBigPnl.Controls.Add(this.STRStatLbl);
+            this.STRBigPnl.Controls.Add(this.STRBigLbl);
+            this.STRBigPnl.Controls.Add(this.StrDiv);
             this.STRBigPnl.Controls.Add(this.STRModLbl);
             this.STRBigPnl.Location = new System.Drawing.Point(5, 5);
             this.STRBigPnl.Margin = new System.Windows.Forms.Padding(5);
@@ -1097,29 +1099,18 @@
             this.STRBigLbl.AutoSize = true;
             this.STRBigLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.STRBigLbl.ForeColor = System.Drawing.SystemColors.Control;
-            this.STRBigLbl.Location = new System.Drawing.Point(6, 5);
+            this.STRBigLbl.Location = new System.Drawing.Point(6, 3);
             this.STRBigLbl.Name = "STRBigLbl";
             this.STRBigLbl.Size = new System.Drawing.Size(69, 31);
             this.STRBigLbl.TabIndex = 6;
             this.STRBigLbl.Text = "STR";
-            // 
-            // STRStatLbl
-            // 
-            this.STRStatLbl.AutoSize = true;
-            this.STRStatLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.STRStatLbl.ForeColor = System.Drawing.SystemColors.Control;
-            this.STRStatLbl.Location = new System.Drawing.Point(19, 36);
-            this.STRStatLbl.Name = "STRStatLbl";
-            this.STRStatLbl.Size = new System.Drawing.Size(36, 25);
-            this.STRStatLbl.TabIndex = 12;
-            this.STRStatLbl.Text = "10";
             // 
             // STRModLbl
             // 
             this.STRModLbl.AutoSize = true;
             this.STRModLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.STRModLbl.ForeColor = System.Drawing.SystemColors.Control;
-            this.STRModLbl.Location = new System.Drawing.Point(28, 61);
+            this.STRModLbl.Location = new System.Drawing.Point(28, 64);
             this.STRModLbl.Name = "STRModLbl";
             this.STRModLbl.Size = new System.Drawing.Size(19, 13);
             this.STRModLbl.TabIndex = 14;
@@ -1538,6 +1529,27 @@
             this.SpdPnl.Size = new System.Drawing.Size(62, 62);
             this.SpdPnl.TabIndex = 113;
             // 
+            // SpdDiv
+            // 
+            this.SpdDiv.BackColor = System.Drawing.Color.White;
+            this.SpdDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.SpdDiv.Location = new System.Drawing.Point(9, 40);
+            this.SpdDiv.Name = "SpdDiv";
+            this.SpdDiv.Size = new System.Drawing.Size(45, 3);
+            this.SpdDiv.TabIndex = 135;
+            // 
+            // SpdBx
+            // 
+            this.SpdBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.SpdBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.SpdBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SpdBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.SpdBx.Location = new System.Drawing.Point(10, 5);
+            this.SpdBx.Multiline = true;
+            this.SpdBx.Name = "SpdBx";
+            this.SpdBx.Size = new System.Drawing.Size(41, 34);
+            this.SpdBx.TabIndex = 134;
+            // 
             // SpdLbl
             // 
             this.SpdLbl.AutoSize = true;
@@ -1561,6 +1573,27 @@
             this.InitPnl.Size = new System.Drawing.Size(62, 62);
             this.InitPnl.TabIndex = 112;
             // 
+            // InitDv
+            // 
+            this.InitDv.BackColor = System.Drawing.Color.White;
+            this.InitDv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.InitDv.Location = new System.Drawing.Point(9, 40);
+            this.InitDv.Name = "InitDv";
+            this.InitDv.Size = new System.Drawing.Size(45, 3);
+            this.InitDv.TabIndex = 135;
+            // 
+            // InitBx
+            // 
+            this.InitBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.InitBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.InitBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InitBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.InitBx.Location = new System.Drawing.Point(10, 5);
+            this.InitBx.Multiline = true;
+            this.InitBx.Name = "InitBx";
+            this.InitBx.Size = new System.Drawing.Size(41, 34);
+            this.InitBx.TabIndex = 134;
+            // 
             // InitLbl
             // 
             this.InitLbl.AutoSize = true;
@@ -1583,6 +1616,27 @@
             this.ACPnl.Name = "ACPnl";
             this.ACPnl.Size = new System.Drawing.Size(62, 62);
             this.ACPnl.TabIndex = 111;
+            // 
+            // ACDiv
+            // 
+            this.ACDiv.BackColor = System.Drawing.Color.White;
+            this.ACDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ACDiv.Location = new System.Drawing.Point(9, 40);
+            this.ACDiv.Name = "ACDiv";
+            this.ACDiv.Size = new System.Drawing.Size(45, 3);
+            this.ACDiv.TabIndex = 135;
+            // 
+            // ACBx
+            // 
+            this.ACBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.ACBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ACBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ACBx.ForeColor = System.Drawing.SystemColors.Window;
+            this.ACBx.Location = new System.Drawing.Point(10, 5);
+            this.ACBx.Multiline = true;
+            this.ACBx.Name = "ACBx";
+            this.ACBx.Size = new System.Drawing.Size(41, 34);
+            this.ACBx.TabIndex = 134;
             // 
             // AcLbl
             // 
@@ -2382,68 +2436,27 @@
             this.label2.TabIndex = 123;
             this.label2.Text = "Level";
             // 
-            // ACDiv
+            // StrDiv
             // 
-            this.ACDiv.BackColor = System.Drawing.Color.White;
-            this.ACDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ACDiv.Location = new System.Drawing.Point(9, 40);
-            this.ACDiv.Name = "ACDiv";
-            this.ACDiv.Size = new System.Drawing.Size(45, 3);
-            this.ACDiv.TabIndex = 135;
+            this.StrDiv.BackColor = System.Drawing.Color.White;
+            this.StrDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.StrDiv.Location = new System.Drawing.Point(23, 58);
+            this.StrDiv.Name = "StrDiv";
+            this.StrDiv.Size = new System.Drawing.Size(33, 3);
+            this.StrDiv.TabIndex = 135;
             // 
-            // ACBx
+            // STRStatLbl
             // 
-            this.ACBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
-            this.ACBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ACBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ACBx.ForeColor = System.Drawing.SystemColors.Window;
-            this.ACBx.Location = new System.Drawing.Point(10, 5);
-            this.ACBx.Multiline = true;
-            this.ACBx.Name = "ACBx";
-            this.ACBx.Size = new System.Drawing.Size(41, 34);
-            this.ACBx.TabIndex = 134;
-            // 
-            // InitDv
-            // 
-            this.InitDv.BackColor = System.Drawing.Color.White;
-            this.InitDv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.InitDv.Location = new System.Drawing.Point(9, 40);
-            this.InitDv.Name = "InitDv";
-            this.InitDv.Size = new System.Drawing.Size(45, 3);
-            this.InitDv.TabIndex = 135;
-            // 
-            // InitBx
-            // 
-            this.InitBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
-            this.InitBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.InitBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InitBx.ForeColor = System.Drawing.SystemColors.Window;
-            this.InitBx.Location = new System.Drawing.Point(10, 5);
-            this.InitBx.Multiline = true;
-            this.InitBx.Name = "InitBx";
-            this.InitBx.Size = new System.Drawing.Size(41, 34);
-            this.InitBx.TabIndex = 134;
-            // 
-            // SpdDiv
-            // 
-            this.SpdDiv.BackColor = System.Drawing.Color.White;
-            this.SpdDiv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.SpdDiv.Location = new System.Drawing.Point(9, 40);
-            this.SpdDiv.Name = "SpdDiv";
-            this.SpdDiv.Size = new System.Drawing.Size(45, 3);
-            this.SpdDiv.TabIndex = 135;
-            // 
-            // SpdBx
-            // 
-            this.SpdBx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
-            this.SpdBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.SpdBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SpdBx.ForeColor = System.Drawing.SystemColors.Window;
-            this.SpdBx.Location = new System.Drawing.Point(10, 5);
-            this.SpdBx.Multiline = true;
-            this.SpdBx.Name = "SpdBx";
-            this.SpdBx.Size = new System.Drawing.Size(41, 34);
-            this.SpdBx.TabIndex = 134;
+            this.STRStatLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(26)))));
+            this.STRStatLbl.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.STRStatLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.STRStatLbl.ForeColor = System.Drawing.SystemColors.Window;
+            this.STRStatLbl.Location = new System.Drawing.Point(33, 32);
+            this.STRStatLbl.Multiline = true;
+            this.STRStatLbl.Name = "STRStatLbl";
+            this.STRStatLbl.Size = new System.Drawing.Size(37, 25);
+            this.STRStatLbl.TabIndex = 134;
+            this.STRStatLbl.Text = "0";
             // 
             // characterSheet
             // 
@@ -2611,7 +2624,6 @@
         public System.Windows.Forms.Label PersSkillStat;
         public System.Windows.Forms.Panel STRBigPnl;
         public System.Windows.Forms.Label STRBigLbl;
-        public System.Windows.Forms.Label STRStatLbl;
         public System.Windows.Forms.Label STRModLbl;
         public System.Windows.Forms.FlowLayoutPanel BIGStatPnl;
         public System.Windows.Forms.Panel DEXBigPnl;
@@ -2737,5 +2749,7 @@
         public System.Windows.Forms.TextBox InitBx;
         public System.Windows.Forms.Panel ACDiv;
         public System.Windows.Forms.TextBox ACBx;
+        public System.Windows.Forms.Panel StrDiv;
+        public System.Windows.Forms.TextBox STRStatLbl;
     }
 }
